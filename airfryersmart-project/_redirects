@@ -1,0 +1,14 @@
+# AirFryerSmart — redirect rules (Cloudflare Pages + Netlify)
+#
+# READ THIS ONLY WHEN YOU BUY YOUR CUSTOM DOMAIN:
+# After you add the custom domain in Cloudflare Pages and update SITE_URL in
+# config.js (then re-run `node tools/build.js`), uncomment the two lines below
+# to 301-redirect every old free-subdomain URL to the custom domain. This keeps
+# all your Google rankings and backlinks when you switch.
+#
+# Example for airfryersmart.com:
+# https://airfryersmart.pages.dev/*  https://airfryersmart.com/:splat  301
+# https://airfryersmart.pages.dev    https://airfryersmart.com/        301
+#
+# Do NOT enable these while you are still on the free subdomain — it would
+# redirect the site to a domain you do not own yet.
