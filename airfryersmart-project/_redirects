@@ -1,0 +1,23 @@
+# AirFryerSmart — redirect rules (Cloudflare Pages + Netlify)
+
+# ---------------------------------------------------------------------------
+# 1. ACTIVE: the site was first uploaded inside a wrapper folder, so a stale
+#    duplicate copy is still reachable at /airfryersmart-project/... Permanent
+#    redirects keep that copy out of Google's index and off your crawl budget.
+#    Safe to keep forever, even if you later delete the folder from the repo.
+# ---------------------------------------------------------------------------
+/airfryersmart-project/*  /:splat  301
+/airfryersmart-project    /       301
+
+# ---------------------------------------------------------------------------
+# 2. OPTIONAL: after you buy a custom domain, add it in Cloudflare Pages,
+#    change SITE_URL in assets/js/config.js, re-run `node tools/build.js`,
+#    then uncomment the two lines below (replace airfryersmart.com with your
+#    real domain). This carries your rankings and backlinks across.
+#
+# https://airfryersmart.pages.dev/*  https://airfryersmart.com/:splat  301
+# https://airfryersmart.pages.dev    https://airfryersmart.com/        301
+#
+# Do NOT enable these while you are still on the free subdomain — it would
+# redirect visitors to a domain you do not own yet.
+# ---------------------------------------------------------------------------

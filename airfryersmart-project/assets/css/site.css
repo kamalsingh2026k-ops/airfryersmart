@@ -1,0 +1,553 @@
+/* ==========================================================================
+   AirFryerSmart — Design System
+   --------------------------------------------------------------------------
+   Tailwind CDN handles layout utilities. This file owns the *identity*:
+   design tokens, typography, surfaces, buttons, controls, tables and print.
+
+   Convention: component classes are attribute-driven (e.g. .seg-btn[aria-pressed]).
+   That keeps them in sync with the JS state logic instead of fighting it.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Design tokens
+   -------------------------------------------------------------------------- */
+:root{
+  /* Brand */
+  --brand-50:#fff7ed;  --brand-100:#ffedd5; --brand-200:#fed7aa;
+  --brand-400:#fb923c; --brand-500:#f97316; --brand-600:#ea580c;
+  --brand-700:#c2410c; --brand-800:#9a3412;
+
+  /* Neutral ink (warm-leaning grey: reads as "kitchen", not "corporate") */
+  --ink-900:#1c1917; --ink-700:#44403c; --ink-500:#78716c;
+  --ink-300:#d6d3d1; --ink-100:#f5f5f4; --ink-50:#fafaf9;
+
+  /* Status */
+  --safe:#059669; --safe-bg:#ecfdf5;
+  --warn:#b45309; --warn-bg:#fffbeb;
+
+  /* Surfaces (light) */
+  --page:#faf9f8;
+  --surface:#ffffff;
+  --surface-2:#f6f4f2;
+  --line:#e7e5e4;
+  --line-strong:#d6d3d1;
+  --text:#1c1917;
+  --text-2:#57534e;
+  --text-3:#8a8580;
+
+  /* Shape + depth */
+  --r-sm:.5rem; --r:.75rem; --r-lg:1rem; --r-xl:1.25rem; --r-2xl:1.5rem;
+  --sh-1:0 1px 2px rgba(28,25,23,.05);
+  --sh-2:0 2px 8px -2px rgba(28,25,23,.08), 0 4px 16px -6px rgba(28,25,23,.06);
+  --sh-3:0 12px 32px -12px rgba(28,25,23,.18), 0 4px 12px -6px rgba(28,25,23,.08);
+  --sh-brand:0 10px 30px -10px rgba(234,88,12,.45);
+
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",
+         Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+/* Surfaces (dark) */
+html.dark{
+  color-scheme:dark;
+  --page:#0c0a09;
+  --surface:#1c1917;
+  --surface-2:#262220;
+  --line:#332e2b;
+  --line-strong:#44403c;
+  --text:#f5f5f4;
+  --text-2:#c7c2bd;
+  --text-3:#8a8580;
+  --safe:#34d399; --safe-bg:rgba(6,78,59,.35);
+  --warn:#fbbf24; --warn-bg:rgba(120,53,15,.35);
+  --sh-1:0 1px 2px rgba(0,0,0,.4);
+  --sh-2:0 2px 8px -2px rgba(0,0,0,.5), 0 4px 16px -6px rgba(0,0,0,.4);
+  --sh-3:0 12px 32px -12px rgba(0,0,0,.7), 0 4px 12px -6px rgba(0,0,0,.5);
+}
+
+/* --------------------------------------------------------------------------
+   2. Base
+   -------------------------------------------------------------------------- */
+body{
+  font-family:var(--font);
+  background:var(--page);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+/* Warm ambient wash at the top of every page. Pure CSS, zero requests. */
+body::before{
+  content:"";position:fixed;inset:0 0 auto 0;height:520px;z-index:-1;pointer-events:none;
+  background:
+    radial-gradient(60% 55% at 18% 0%, rgba(249,115,22,.10), transparent 62%),
+    radial-gradient(50% 45% at 88% 4%, rgba(251,191,36,.10), transparent 60%);
+}
+html.dark body::before{
+  background:
+    radial-gradient(60% 55% at 18% 0%, rgba(249,115,22,.14), transparent 62%),
+    radial-gradient(50% 45% at 88% 4%, rgba(120,53,15,.22), transparent 60%);
+}
+
+/* Headings share one rhythm so every page feels like the same product. */
+h1,h2,h3,h4{letter-spacing:-.02em;font-weight:800;color:var(--text);}
+h1{letter-spacing:-.035em;}
+.tabular-nums{font-variant-numeric:tabular-nums;}
+
+/* --------------------------------------------------------------------------
+   3. Accessibility
+   -------------------------------------------------------------------------- */
+.skip-link{
+  position:absolute;left:-9999px;top:0;z-index:100;
+  background:var(--surface);color:var(--text);padding:.75rem 1.25rem;font-weight:600;
+  border-radius:0 0 var(--r) 0;box-shadow:var(--sh-3);
+}
+.skip-link:focus{left:0;}
+
+a:focus-visible,button:focus-visible,input:focus-visible,
+select:focus-visible,textarea:focus-visible,summary:focus-visible,
+[tabindex]:focus-visible{
+  outline:3px solid var(--brand-500);
+  outline-offset:2px;
+  border-radius:var(--r-sm);
+}
+
+.sr-only{
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+  overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;
+}
+
+/* --------------------------------------------------------------------------
+   4. Typography helpers
+   -------------------------------------------------------------------------- */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:.4rem;
+  font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--brand-600);
+}
+html.dark .eyebrow{color:var(--brand-400);}
+
+.lede{font-size:1.0625rem;line-height:1.65;color:var(--text-2);}
+.hint{font-size:.8rem;line-height:1.5;color:var(--text-3);}
+.link{color:var(--brand-600);font-weight:600;text-decoration:underline;
+      text-underline-offset:2px;text-decoration-thickness:1.5px;}
+.link:hover{color:var(--brand-700);}
+html.dark .link{color:var(--brand-400);}
+
+/* Section header block used on every page. */
+.section-head{margin-bottom:1.25rem;}
+.section-head h2{font-size:1.5rem;line-height:1.25;margin-bottom:.35rem;}
+@media (min-width:768px){.section-head h2{font-size:1.875rem;}}
+.section-head p{color:var(--text-2);max-width:52rem;line-height:1.6;}
+
+/* --------------------------------------------------------------------------
+   5. Surfaces
+   -------------------------------------------------------------------------- */
+.card{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--r-xl);
+  box-shadow:var(--sh-1);
+}
+.card-pad{padding:1.5rem;}
+@media (max-width:640px){.card-pad{padding:1.15rem;}}
+
+.card-hover{transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;}
+.card-hover:hover{transform:translateY(-2px);box-shadow:var(--sh-2);border-color:var(--line-strong);}
+
+.card-media{
+  background:var(--surface-2);
+  border:1px dashed var(--line-strong);
+  border-radius:var(--r-xl);
+  padding:2rem 1.5rem;text-align:center;color:var(--text-3);
+}
+
+.divider{height:1px;background:var(--line);border:0;margin:2rem 0;}
+
+/* --------------------------------------------------------------------------
+   6. Buttons
+   -------------------------------------------------------------------------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.5rem;
+  font-weight:700;font-size:.9375rem;line-height:1;
+  padding:.8125rem 1.25rem;border-radius:var(--r);
+  border:1px solid transparent;cursor:pointer;white-space:nowrap;
+  transition:transform .12s ease, background-color .16s ease,
+             box-shadow .16s ease, border-color .16s ease, color .16s ease;
+}
+.btn:active{transform:translateY(1px) scale(.995);}
+.btn:disabled{opacity:.5;cursor:not-allowed;transform:none;}
+
+.btn-primary{background:var(--brand-600);color:#fff;box-shadow:var(--sh-brand);}
+.btn-primary:hover{background:var(--brand-700);}
+
+.btn-secondary{
+  background:var(--surface-2);color:var(--text);
+  border-color:var(--line);box-shadow:var(--sh-1);
+}
+.btn-secondary:hover{background:var(--line);}
+
+.btn-ghost{background:transparent;color:var(--text-2);}
+.btn-ghost:hover{background:var(--surface-2);color:var(--text);}
+
+.btn-danger{background:rgba(220,38,38,.08);color:#b91c1c;border-color:rgba(220,38,38,.2);}
+.btn-danger:hover{background:rgba(220,38,38,.14);}
+html.dark .btn-danger{color:#fca5a5;background:rgba(220,38,38,.16);border-color:rgba(220,38,38,.3);}
+
+.btn-sm{padding:.55rem .8rem;font-size:.8125rem;border-radius:var(--r-sm);}
+.btn-lg{padding:1rem 1.75rem;font-size:1rem;}
+.btn-block{width:100%;}
+
+/* --------------------------------------------------------------------------
+   7. Form controls
+   -------------------------------------------------------------------------- */
+.field-label{
+  display:block;font-weight:700;font-size:.9375rem;color:var(--text);
+  margin-bottom:.5rem;
+}
+.input,.select,.textarea{
+  width:100%;padding:.8125rem .9rem;font-size:.9375rem;font-weight:500;
+  color:var(--text);background:var(--surface);
+  border:1px solid var(--line-strong);border-radius:var(--r);
+  transition:border-color .16s ease, box-shadow .16s ease;
+  appearance:none;
+}
+.input:hover,.select:hover,.textarea:hover{border-color:var(--text-3);}
+.input:focus,.select:focus,.textarea:focus{
+  outline:none;border-color:var(--brand-500);
+  box-shadow:0 0 0 4px rgba(249,115,22,.16);
+}
+.select{
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%238a8580' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right .85rem center;
+  padding-right:2.5rem;
+}
+.textarea{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.85rem;line-height:1.6;}
+
+/* Segmented control (unit switch, filters) */
+.seg{
+  display:inline-flex;gap:.25rem;padding:.25rem;
+  background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r);
+}
+.seg-btn{
+  padding:.5rem 1.05rem;border-radius:var(--r-sm);font-weight:700;font-size:.9375rem;
+  color:var(--text-2);background:transparent;border:0;cursor:pointer;
+  transition:background-color .16s ease,color .16s ease,box-shadow .16s ease;
+}
+.seg-btn:hover{color:var(--text);}
+.seg-btn[aria-pressed="true"]{
+  background:var(--brand-600);color:#fff !important;box-shadow:var(--sh-1);
+}
+
+/* Custom switch (fresh/frozen, and any boolean setting) */
+.switch{position:relative;display:inline-block;width:3.25rem;height:1.875rem;flex:none;}
+.switch input{position:absolute;opacity:0;width:100%;height:100%;margin:0;cursor:pointer;z-index:2;}
+.switch-track{
+  position:absolute;inset:0;background:var(--line-strong);border-radius:9999px;
+  transition:background-color .2s ease;
+}
+.switch-track::after{
+  content:"";position:absolute;top:.25rem;left:.25rem;width:1.375rem;height:1.375rem;
+  background:#fff;border-radius:9999px;box-shadow:var(--sh-1);
+  transition:transform .2s cubic-bezier(.2,.9,.3,1.2);
+}
+.switch input:checked + .switch-track{background:var(--brand-600);}
+.switch input:checked + .switch-track::after{transform:translateX(1.375rem);}
+.switch input:focus-visible + .switch-track{box-shadow:0 0 0 4px rgba(249,115,22,.28);}
+
+/* Range sliders — thumb plus a filled track driven by --pct (set in site.js) */
+input[type=range]{
+  -webkit-appearance:none;appearance:none;width:100%;height:12px;border-radius:9999px;
+  background:linear-gradient(to right,
+    var(--brand-500) 0%, var(--brand-500) var(--pct,50%),
+    var(--line) var(--pct,50%), var(--line) 100%);
+  outline:none;cursor:pointer;
+}
+input[type=range]::-webkit-slider-thumb{
+  -webkit-appearance:none;appearance:none;
+  width:30px;height:30px;border-radius:9999px;
+  background:#fff;border:3px solid var(--brand-600);
+  box-shadow:0 2px 8px rgba(28,25,23,.28);cursor:grab;
+  transition:transform .12s ease, box-shadow .12s ease;
+}
+input[type=range]:hover::-webkit-slider-thumb{transform:scale(1.08);}
+input[type=range]:active::-webkit-slider-thumb{cursor:grabbing;transform:scale(1.02);}
+input[type=range]::-moz-range-thumb{
+  width:24px;height:24px;border-radius:9999px;background:#fff;
+  border:3px solid var(--brand-600);box-shadow:0 2px 8px rgba(28,25,23,.28);cursor:grab;
+}
+input[type=range]:focus-visible{box-shadow:0 0 0 4px rgba(249,115,22,.22);}
+html.dark input[type=range]::-webkit-slider-thumb{border-color:var(--brand-400);}
+html.dark input[type=range]::-moz-range-thumb{border-color:var(--brand-400);}
+
+/* Value read-out next to a slider */
+.readout{
+  font-size:1.6rem;font-weight:900;line-height:1;
+  color:var(--text);font-variant-numeric:tabular-nums;
+  background:var(--surface-2);border:1px solid var(--line);
+  padding:.4rem .7rem;border-radius:var(--r-sm);
+}
+@media (max-width:400px){.readout{font-size:1.35rem;}}
+
+/* Numbered step marker inside form cards */
+.step{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:1.6rem;height:1.6rem;border-radius:9999px;flex:none;
+  background:var(--brand-600);color:#fff;font-size:.75rem;font-weight:800;
+}
+
+/* --------------------------------------------------------------------------
+   8. Chips, badges, stats
+   -------------------------------------------------------------------------- */
+.chip{
+  display:inline-flex;align-items:center;gap:.35rem;
+  padding:.4rem .75rem;border-radius:9999px;font-size:.8125rem;font-weight:600;
+  background:var(--surface-2);color:var(--text-2);border:1px solid var(--line);
+  transition:background-color .16s ease,border-color .16s ease,color .16s ease;
+}
+a.chip:hover{background:var(--brand-50);border-color:var(--brand-200);color:var(--brand-700);}
+html.dark a.chip:hover{background:rgba(154,52,18,.28);border-color:var(--brand-800);color:var(--brand-200);}
+
+.badge-safe{
+  display:inline-flex;align-items:center;gap:.35rem;
+  padding:.25rem .6rem;border-radius:9999px;font-size:.75rem;font-weight:700;
+  background:var(--safe-bg);color:var(--safe);
+}
+
+.hero-stats{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;
+  max-width:44rem;margin:1.75rem auto 0;
+}
+@media (min-width:640px){.hero-stats{grid-template-columns:repeat(4,minmax(0,1fr));}}
+.stat{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+  padding:.85rem .75rem;box-shadow:var(--sh-1);
+}
+.stat-num{font-size:1.375rem;font-weight:900;line-height:1.1;display:block;
+          font-variant-numeric:tabular-nums;color:var(--text);}
+.stat-label{font-size:.75rem;color:var(--text-3);font-weight:600;}
+
+/* Hero headline emphasis */
+.grad-text{
+  background:linear-gradient(100deg,var(--brand-600),#f59e0b 70%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+
+/* --------------------------------------------------------------------------
+   9. Navigation
+   -------------------------------------------------------------------------- */
+.nav-link{
+  position:relative;padding:.35rem 0;color:var(--text-2);font-weight:600;
+  transition:color .16s ease;
+}
+.nav-link:hover{color:var(--brand-600);}
+.nav-link::after{
+  content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;border-radius:2px;
+  background:var(--brand-600);transform:scaleX(0);transform-origin:left;
+  transition:transform .2s ease;
+}
+.nav-link:hover::after,.nav-link[aria-current="page"]::after{transform:scaleX(1);}
+.nav-link[aria-current="page"]{color:var(--brand-600);}
+
+.icon-btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:2.5rem;height:2.5rem;border-radius:var(--r);
+  background:var(--surface-2);border:1px solid var(--line);color:var(--text);
+  font-size:1.05rem;cursor:pointer;transition:background-color .16s ease,transform .12s ease;
+}
+.icon-btn:hover{background:var(--line);}
+
+/* --------------------------------------------------------------------------
+   10. Result panel
+   -------------------------------------------------------------------------- */
+.result-card{
+  position:relative;overflow:hidden;color:#fff;
+  background:linear-gradient(135deg,var(--brand-600) 0%,#b45309 100%);
+  border-radius:var(--r-xl);padding:1.5rem;
+  box-shadow:0 18px 40px -18px rgba(154,52,18,.6);
+}
+.result-card::after{
+  content:"";position:absolute;top:-40%;right:-15%;width:60%;height:180%;
+  background:radial-gradient(circle,rgba(255,255,255,.22),transparent 65%);
+  pointer-events:none;
+}
+.result-num{font-size:2.9rem;font-weight:900;line-height:1;letter-spacing:-.04em;
+            font-variant-numeric:tabular-nums;}
+@media (max-width:400px){.result-num{font-size:2.35rem;}}
+.result-meta{
+  display:inline-flex;align-items:center;gap:.35rem;
+  padding:.35rem .7rem;border-radius:9999px;font-size:.8125rem;font-weight:700;
+  background:rgba(255,255,255,.18);backdrop-filter:blur(4px);
+}
+
+/* --------------------------------------------------------------------------
+   11. Tiles (food / link grids)
+   -------------------------------------------------------------------------- */
+.tile{
+  display:flex;align-items:center;gap:.75rem;
+  padding:.9rem 1rem;background:var(--surface);border:1px solid var(--line);
+  border-radius:var(--r);font-weight:700;color:var(--text);box-shadow:var(--sh-1);
+  transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease;
+}
+.tile:hover{transform:translateY(-2px);border-color:var(--brand-400);box-shadow:var(--sh-2);}
+.tile-emoji{
+  display:flex;align-items:center;justify-content:center;flex:none;
+  width:2.5rem;height:2.5rem;border-radius:var(--r-sm);font-size:1.35rem;
+  background:linear-gradient(135deg,var(--brand-100),var(--brand-200));
+}
+html.dark .tile-emoji{background:linear-gradient(135deg,rgba(154,52,18,.5),rgba(120,53,15,.5));}
+.tile-sub{display:block;font-size:.75rem;font-weight:600;color:var(--text-3);margin-top:.1rem;}
+
+/* --------------------------------------------------------------------------
+   12. Tables (food index, safe temps, guide tables)
+   -------------------------------------------------------------------------- */
+.table-afs{width:100%;border-collapse:separate;border-spacing:0;font-size:.9375rem;}
+.table-afs caption{text-align:left;font-weight:700;padding-bottom:.75rem;color:var(--text-2);}
+.table-afs th{
+  text-align:left;font-size:.75rem;font-weight:800;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--text-3);
+  padding:.6rem .75rem;border-bottom:1px solid var(--line-strong);
+  background:var(--surface);
+}
+.table-afs td{padding:.7rem .75rem;border-bottom:1px solid var(--line);color:var(--text-2);}
+.table-afs tbody tr:hover td{background:var(--surface-2);}
+.table-afs td:first-child,.table-afs th:first-child{padding-left:1rem;}
+.table-afs td:last-child,.table-afs th:last-child{padding-right:1rem;}
+.table-afs .nowrap{white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--text);font-weight:600;}
+
+/* --------------------------------------------------------------------------
+   13. FAQ + disclosure blocks
+   -------------------------------------------------------------------------- */
+.faq{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);
+  box-shadow:var(--sh-1);overflow:hidden;transition:border-color .16s ease;
+}
+.faq[open]{border-color:var(--line-strong);}
+.faq summary{
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  padding:1.05rem 1.25rem;font-weight:700;cursor:pointer;list-style:none;
+}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::after{
+  content:"";flex:none;width:.6rem;height:.6rem;margin-right:.2rem;
+  border-right:2.5px solid var(--text-3);border-bottom:2.5px solid var(--text-3);
+  transform:rotate(45deg);transition:transform .2s ease;
+}
+.faq[open] summary::after{transform:rotate(-135deg);}
+.faq .faq-body{padding:0 1.25rem 1.25rem;color:var(--text-2);line-height:1.7;}
+
+.note{
+  border-left:3px solid var(--brand-500);background:var(--surface-2);
+  padding:.9rem 1.1rem;border-radius:0 var(--r) var(--r) 0;
+  font-size:.9rem;color:var(--text-2);line-height:1.6;
+}
+.note-safe{border-left-color:var(--safe);background:var(--safe-bg);color:var(--safe);}
+.note-warn{border-left-color:var(--warn);background:var(--warn-bg);color:var(--warn);font-weight:600;}
+
+/* --------------------------------------------------------------------------
+   14. Ad slots
+   -------------------------------------------------------------------------- */
+/* Reserved min-height stops any layout shift when an ad finally loads (CLS). */
+.ad-slot{display:block;width:100%;overflow:hidden;text-align:center;margin:2rem auto;}
+.ad-slot[data-format="leaderboard"]{min-height:100px;}
+.ad-slot[data-format="rectangle"]{min-height:280px;}
+.ad-slot[data-format="in-feed"]{min-height:160px;}
+.ad-label{
+  display:block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--text-3);margin-bottom:.35rem;font-weight:700;
+}
+
+/* --------------------------------------------------------------------------
+   15. Recipe parser output
+   -------------------------------------------------------------------------- */
+mark.afs-hit{
+  background:var(--brand-100);color:var(--brand-800);padding:.1em .35em;
+  border-radius:.25rem;font-weight:700;
+}
+html.dark mark.afs-hit{background:rgba(154,52,18,.55);color:var(--brand-100);}
+.afs-was{font-size:.8em;color:var(--text-3);font-style:italic;}
+
+/* --------------------------------------------------------------------------
+   16. Toast
+   -------------------------------------------------------------------------- */
+#toast{
+  position:fixed;left:50%;bottom:1.5rem;transform:translate(-50%,140%);
+  background:var(--ink-900);color:#fff;padding:.85rem 1.4rem;border-radius:9999px;
+  font-weight:600;font-size:.9rem;box-shadow:0 10px 25px rgba(0,0,0,.35);
+  transition:transform .28s cubic-bezier(.2,.9,.3,1.2);z-index:80;
+  max-width:92vw;text-align:center;
+}
+#toast.show{transform:translate(-50%,0);}
+
+/* --------------------------------------------------------------------------
+   17. Food imagery (space reserved so lazy images never shift layout)
+   -------------------------------------------------------------------------- */
+.img-frame{
+  position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;
+  border-radius:var(--r-lg);background:var(--surface-2);border:1px solid var(--line);
+}
+.img-frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.img-frame .img-fallback{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-size:4.5rem;background:linear-gradient(135deg,var(--brand-100),var(--brand-200));
+}
+html.dark .img-frame .img-fallback{background:linear-gradient(135deg,rgba(154,52,18,.6),rgba(120,53,15,.75));}
+
+/* --------------------------------------------------------------------------
+   18. Article body (blog + guide pages)
+   -------------------------------------------------------------------------- */
+.prose-afs{max-width:44rem;}
+.prose-afs h2{font-size:1.5rem;margin:2.4rem 0 .7rem;line-height:1.3;}
+.prose-afs h3{font-size:1.15rem;margin:1.8rem 0 .55rem;}
+.prose-afs p{margin:0 0 1.15rem;line-height:1.78;color:var(--text-2);font-size:1.0125rem;}
+.prose-afs ul,.prose-afs ol{margin:0 0 1.25rem 1.4rem;line-height:1.78;color:var(--text-2);}
+.prose-afs ul{list-style:disc;}
+.prose-afs ol{list-style:decimal;}
+.prose-afs li{margin-bottom:.5rem;}
+.prose-afs strong{color:var(--text);font-weight:700;}
+.prose-afs a{color:var(--brand-600);text-decoration:underline;font-weight:600;
+             text-underline-offset:2px;}
+.prose-afs blockquote{
+  border-left:3px solid var(--brand-500);padding:.4rem 0 .4rem 1.1rem;
+  margin:1.5rem 0;font-style:italic;color:var(--text-3);
+}
+.prose-afs table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.9rem;}
+.prose-afs th,.prose-afs td{border:1px solid var(--line);padding:.6rem .75rem;text-align:left;}
+.prose-afs th{background:var(--surface-2);font-weight:800;color:var(--text);}
+.prose-afs td{color:var(--text-2);}
+.prose-afs figure,.prose-afs .img-frame{margin:1.6rem 0;}
+
+/* --------------------------------------------------------------------------
+   19. Print stylesheet — produces a clean paper cheat sheet from any page
+   -------------------------------------------------------------------------- */
+@media print{
+  @page{margin:1.4cm;}
+  html,body{background:#fff !important;color:#000 !important;font-size:11.5pt;}
+  body::before{display:none !important;}
+  header,footer,nav,.ad-slot,#cookie-banner,#toast,.no-print,
+  button,.btn,input[type=range],#timer-card,form,.seg{display:none !important;}
+  .card,.faq{border:1px solid #bbb !important;box-shadow:none !important;}
+  .print-only{display:block !important;}
+  main{max-width:100% !important;padding:0 !important;margin:0 !important;}
+  .print-block{
+    break-inside:avoid;page-break-inside:avoid;
+    border:1px solid #999 !important;background:#fff !important;
+    box-shadow:none !important;margin-bottom:.6cm;padding:.5cm;
+  }
+  .print-title{font-size:20pt;font-weight:800;margin-bottom:.2cm;}
+  .print-sub{font-size:10pt;color:#444;margin-bottom:.5cm;}
+  a[href]:after{content:"";}
+  table{width:100%;border-collapse:collapse;}
+  th,td{border:1px solid #999;padding:4pt 6pt;font-size:10pt;}
+  th{background:#eee !important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+}
+.print-only{display:none;}
+
+/* --------------------------------------------------------------------------
+   20. Motion preferences
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    animation-duration:.01ms !important;animation-iteration-count:1 !important;
+    transition-duration:.01ms !important;scroll-behavior:auto !important;
+  }
+}

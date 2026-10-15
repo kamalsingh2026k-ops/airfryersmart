@@ -1,0 +1,3136 @@
+[
+ {
+  "slug": "chicken-wings",
+  "name": "Chicken Wings",
+  "emoji": "🍗",
+  "category": "Poultry",
+  "keywords": [
+   "air fryer chicken wings",
+   "crispy wings air fryer",
+   "frozen wings air fryer time"
+  ],
+  "blurb": "The single most-cooked food in an air fryer. Rendered fat plus circulating heat gives you deep-fried crunch with no oil bath.",
+  "serving": "1 lb (about 10 whole wings, or 20 flats/drums)",
+  "fresh": {
+   "f": 400,
+   "min": 22
+  },
+  "frozen": {
+   "f": 400,
+   "min": 28
+  },
+  "oven": {
+   "f": 425,
+   "min": 45
+  },
+  "shakeAt": [
+   11
+  ],
+  "shake": "Flip wings with tongs at 11 minutes so the side facing the basket floor can crisp.",
+  "internalF": 165,
+  "internalNote": "USDA safe minimum for all poultry, including wings, is 165°F. Check the thickest part of the drumette, avoiding bone.",
+  "crowd": "high",
+  "prep": "Pat completely dry with paper towels — surface moisture is the #1 reason wings come out rubbery. Toss with 1 tsp baking powder (not baking soda) per pound for extra blistering.",
+  "tips": [
+   "Baking powder raises the skin's pH so proteins brown faster — this is the restaurant trick for shatter-crisp skin.",
+   "Sauce AFTER cooking, never before. Sugary sauces burn at 400°F and glue wings to the basket.",
+   "Single layer only. Stacked wings steam each other and you'll get pale, floppy skin."
+  ],
+  "ingredients": [
+   "1 lb chicken wings, split into flats and drums",
+   "1 tsp baking powder (aluminum-free)",
+   "1/2 tsp kosher salt",
+   "1/4 tsp black pepper",
+   "1/2 tsp garlic powder"
+  ],
+  "steps": [
+   "Pat wings bone-dry and toss with baking powder, salt, pepper and garlic powder.",
+   "Arrange in a single layer in the basket, skin side up, with space between each piece.",
+   "Cook at 400°F for 11 minutes.",
+   "Flip each wing and cook another 11 minutes until deep golden and 165°F internal.",
+   "Rest 3 minutes, then toss in sauce and serve immediately."
+  ],
+  "faq": [
+   {
+    "q": "Do I need to thaw frozen wings first?",
+    "a": "No. Cook them straight from frozen at 400°F for about 28 minutes, separating them with tongs at the 8-minute mark once the ice releases. Add 2-3 minutes if they were frozen in a solid block."
+   },
+   {
+    "q": "Why are my wings not crispy?",
+    "a": "Almost always moisture or crowding. Dry the wings thoroughly, use baking powder, and cook no more than a single uncrowded layer at a time."
+   }
+  ]
+ },
+ {
+  "slug": "chicken-breast",
+  "name": "Chicken Breast",
+  "emoji": "🐔",
+  "category": "Poultry",
+  "keywords": [
+   "air fryer chicken breast",
+   "juicy chicken breast air fryer",
+   "chicken breast temp air fryer"
+  ],
+  "blurb": "Boneless chicken breast is easy to overcook. The air fryer's short, hot cycle actually helps — less time on heat means less moisture loss.",
+  "serving": "2 boneless breasts, 6-8 oz each",
+  "fresh": {
+   "f": 375,
+   "min": 18
+  },
+  "frozen": {
+   "f": 360,
+   "min": 28
+  },
+  "oven": {
+   "f": 400,
+   "min": 25
+  },
+  "shakeAt": [
+   10
+  ],
+  "shake": "Flip once at 10 minutes. Don't flip more — every open cycle drops the chamber temperature.",
+  "internalF": 165,
+  "internalNote": "165°F in the thickest part. Pull at 162°F and let carryover heat finish it during the rest — this is the difference between juicy and chalky.",
+  "crowd": "medium",
+  "prep": "Pound to an even 3/4-inch thickness so the thin end doesn't dry out while the thick end catches up. A 30-minute brine in 4 cups water + 1/4 cup salt is transformative.",
+  "tips": [
+   "Even thickness matters more than time. A tapered breast will always overcook at one end.",
+   "Rest 5 minutes before slicing. Cutting immediately dumps the juices onto your board.",
+   "A light coat of oil helps seasoning stick and prevents the surface from turning leathery."
+  ],
+  "ingredients": [
+   "2 boneless skinless chicken breasts (6-8 oz each)",
+   "1 tbsp olive oil",
+   "1 tsp paprika",
+   "1 tsp garlic powder",
+   "1/2 tsp onion powder",
+   "3/4 tsp kosher salt",
+   "1/2 tsp black pepper"
+  ],
+  "steps": [
+   "Pound breasts to even thickness and pat dry.",
+   "Rub with oil, then coat with combined spices.",
+   "Place in a single layer, not touching.",
+   "Cook at 375°F for 10 minutes, flip, then 8 more minutes.",
+   "Verify 165°F with a thermometer and rest 5 minutes before slicing."
+  ],
+  "faq": [
+   {
+    "q": "Can I cook chicken breast from frozen?",
+    "a": "Yes — 360°F for roughly 28 minutes, flipping at 15. The lower temperature gives the center time to reach 165°F before the outside dries out. Always confirm with a thermometer."
+   },
+   {
+    "q": "Should I preheat for chicken breast?",
+    "a": "Yes. A 3-minute preheat sears the surface on contact, which locks in noticeably more moisture than starting in a cold basket."
+   }
+  ]
+ },
+ {
+  "slug": "chicken-thighs",
+  "name": "Chicken Thighs",
+  "emoji": "🍗",
+  "category": "Poultry",
+  "keywords": [
+   "air fryer chicken thighs",
+   "bone in chicken thighs air fryer",
+   "crispy chicken thigh skin"
+  ],
+  "blurb": "Forgiving, fatty, and nearly impossible to ruin. Bone-in skin-on thighs are the best value cut for air frying.",
+  "serving": "4 bone-in, skin-on thighs",
+  "fresh": {
+   "f": 380,
+   "min": 25
+  },
+  "frozen": {
+   "f": 360,
+   "min": 33
+  },
+  "oven": {
+   "f": 425,
+   "min": 40
+  },
+  "shakeAt": [
+   15
+  ],
+  "shake": "Start skin-side down, flip skin-side up at 15 minutes for the final crisping stretch.",
+  "internalF": 165,
+  "internalNote": "165°F is the safe minimum, but thighs are better at 175-180°F — the extra time melts connective tissue without drying the meat.",
+  "crowd": "medium",
+  "prep": "Trim excess flaps of skin and fat, which can smoke. Season under the skin as well as on top.",
+  "tips": [
+   "Thighs render a lot of fat — add a tablespoon of water to the drawer beneath the basket to stop smoke.",
+   "Unlike breast, thighs benefit from going past 165°F. Aim for 175°F for silky texture.",
+   "Skin-side down first, then flip: the rendered fat drains and the skin crisps in its own fat."
+  ],
+  "ingredients": [
+   "4 bone-in skin-on chicken thighs",
+   "2 tsp olive oil",
+   "1 tsp smoked paprika",
+   "1 tsp garlic powder",
+   "1 tsp kosher salt",
+   "1/2 tsp dried thyme",
+   "1/2 tsp black pepper"
+  ],
+  "steps": [
+   "Pat thighs dry and trim excess fat.",
+   "Rub oil and spices over and under the skin.",
+   "Place skin-side down in the basket.",
+   "Cook at 380°F for 15 minutes.",
+   "Flip skin-side up and cook 10 more minutes until skin is crackling and internal temp reads 175°F."
+  ],
+  "faq": [
+   {
+    "q": "Boneless vs bone-in timing?",
+    "a": "Boneless skinless thighs need about 18 minutes at 380°F. Bone-in takes 25 because the bone slows heat transfer to the center."
+   },
+   {
+    "q": "Why is my air fryer smoking with thighs?",
+    "a": "Rendered chicken fat hitting the hot heating element. Pour a tablespoon or two of water into the outer drawer, or line beneath the basket with a small piece of foil that doesn't block airflow."
+   }
+  ]
+ },
+ {
+  "slug": "chicken-drumsticks",
+  "name": "Chicken Drumsticks",
+  "emoji": "🍗",
+  "category": "Poultry",
+  "keywords": [
+   "air fryer drumsticks",
+   "chicken legs air fryer time",
+   "crispy drumsticks"
+  ],
+  "blurb": "Cheap, kid-friendly, and they cook more evenly than you'd expect because the meat wraps a single straight bone.",
+  "serving": "6 drumsticks",
+  "fresh": {
+   "f": 390,
+   "min": 22
+  },
+  "frozen": {
+   "f": 360,
+   "min": 32
+  },
+  "oven": {
+   "f": 425,
+   "min": 40
+  },
+  "shakeAt": [
+   12
+  ],
+  "shake": "Turn each drumstick a half-rotation at 12 minutes.",
+  "internalF": 165,
+  "internalNote": "165°F minimum measured against — not touching — the bone. Dark meat is more pleasant at 175°F.",
+  "crowd": "medium",
+  "prep": "Dry the skin well and season aggressively; drumsticks have a high skin-to-meat ratio so surface seasoning carries the whole dish.",
+  "tips": [
+   "Stand them upright leaning against the basket wall if you're cooking six — more airflow, same footprint.",
+   "A 10-minute dry brine with salt draws moisture out then reabsorbs it, seasoning the meat deeper.",
+   "Brush with BBQ sauce only in the last 3 minutes to prevent burning."
+  ],
+  "ingredients": [
+   "6 chicken drumsticks",
+   "1 tbsp olive oil",
+   "2 tsp brown sugar",
+   "1 tsp smoked paprika",
+   "1 tsp garlic powder",
+   "1 tsp kosher salt",
+   "1/2 tsp cayenne (optional)"
+  ],
+  "steps": [
+   "Pat drumsticks dry and rub with oil.",
+   "Combine dry seasonings and coat evenly.",
+   "Arrange in a single layer with space between.",
+   "Cook at 390°F for 12 minutes, turn, then 10 minutes more.",
+   "Check for 165°F minimum and rest 3 minutes."
+  ],
+  "faq": [
+   {
+    "q": "Can I stack drumsticks?",
+    "a": "Only if you shake and rearrange every 8 minutes, and add about 5 minutes total. A single layer is meaningfully crispier."
+   },
+   {
+    "q": "Do drumsticks need oil?",
+    "a": "A light coat helps seasoning adhere and speeds browning, but the skin has enough fat to crisp on its own if you're avoiding added oil."
+   }
+  ]
+ },
+ {
+  "slug": "chicken-nuggets",
+  "name": "Frozen Chicken Nuggets",
+  "emoji": "🍤",
+  "category": "Frozen Favorites",
+  "keywords": [
+   "frozen chicken nuggets air fryer",
+   "air fryer nuggets time",
+   "dino nuggets air fryer"
+  ],
+  "blurb": "The fastest weeknight win there is. Frozen nuggets go from freezer to plate in ten minutes and come out crunchier than the oven ever managed.",
+  "serving": "12-15 nuggets (about 1 lb)",
+  "fresh": {
+   "f": 380,
+   "min": 8
+  },
+  "frozen": {
+   "f": 380,
+   "min": 10
+  },
+  "oven": {
+   "f": 425,
+   "min": 18
+  },
+  "shakeAt": [
+   5
+  ],
+  "shake": "Shake the basket firmly at 5 minutes so the nuggets tumble and brown on all sides.",
+  "internalF": 165,
+  "internalNote": "Frozen nuggets are pre-cooked but must be reheated to 165°F throughout. Cut one open — steam should escape and there should be no cold center.",
+  "crowd": "low",
+  "prep": "No thawing, no oil, no preheat needed for most models. Just dump and shake.",
+  "tips": [
+   "No oil spray required — frozen nuggets are already par-fried and carry their own fat.",
+   "Two layers is fine here if you shake twice; nuggets are small enough that airflow still reaches them.",
+   "Add 2 minutes if you like them properly crunchy rather than just heated."
+  ],
+  "ingredients": [
+   "1 lb frozen breaded chicken nuggets"
+  ],
+  "steps": [
+   "Pour nuggets into the basket, spreading roughly level.",
+   "Cook at 380°F for 5 minutes.",
+   "Shake the basket vigorously.",
+   "Cook 5 more minutes until golden and hot through.",
+   "Serve immediately — they lose crunch fast as they cool."
+  ],
+  "faq": [
+   {
+    "q": "Do I need to preheat for nuggets?",
+    "a": "Not really. Frozen nuggets are forgiving; skipping preheat costs you maybe a minute. Preheat if you want maximum crunch."
+   },
+   {
+    "q": "What temperature for homemade breaded nuggets?",
+    "a": "380°F for about 8 minutes, flipping once. Spray the breading lightly with oil so the flour turns golden instead of powdery white."
+   }
+  ]
+ },
+ {
+  "slug": "chicken-tenders",
+  "name": "Chicken Tenders",
+  "emoji": "🍗",
+  "category": "Poultry",
+  "keywords": [
+   "air fryer chicken tenders",
+   "breaded chicken strips air fryer",
+   "frozen chicken strips time"
+  ],
+  "blurb": "Breaded tenders are where the air fryer genuinely beats deep frying on convenience — same crunch, no pot of oil to dispose of.",
+  "serving": "1 lb (about 8 tenders)",
+  "fresh": {
+   "f": 380,
+   "min": 12
+  },
+  "frozen": {
+   "f": 390,
+   "min": 14
+  },
+  "oven": {
+   "f": 425,
+   "min": 22
+  },
+  "shakeAt": [
+   6
+  ],
+  "shake": "Flip each tender at 6 minutes with tongs — shaking can knock breading loose.",
+  "internalF": 165,
+  "internalNote": "165°F. Tenders are thin, so they hit temp fast; check the thickest one at the earliest time.",
+  "crowd": "medium",
+  "prep": "For homemade: flour, then egg, then panko. Press the panko on firmly and let the breaded tenders sit 10 minutes so the coating hydrates and clings.",
+  "tips": [
+   "Spray the breading with oil until no dry white flour spots remain — dry spots stay dry and taste raw.",
+   "Panko outperforms standard breadcrumbs in an air fryer; the larger flakes catch more air.",
+   "Use tongs, not a shake, or you'll strip the coating off."
+  ],
+  "ingredients": [
+   "1 lb chicken tenderloins",
+   "1/2 cup flour",
+   "2 eggs, beaten",
+   "1.5 cups panko breadcrumbs",
+   "1 tsp paprika",
+   "1 tsp garlic powder",
+   "1 tsp salt",
+   "Oil spray"
+  ],
+  "steps": [
+   "Season flour with paprika, garlic powder and salt.",
+   "Dredge each tender in flour, then egg, then press firmly into panko.",
+   "Rest breaded tenders 10 minutes on a rack.",
+   "Spray both sides with oil and arrange in a single layer.",
+   "Cook at 380°F for 6 minutes, flip, spray again, and cook 6 more minutes to 165°F."
+  ],
+  "faq": [
+   {
+    "q": "Why does my breading fall off?",
+    "a": "Usually wet chicken or skipping the rest. Pat the tenders dry before flouring, press the panko on hard, and let them sit 10 minutes before cooking."
+   },
+   {
+    "q": "Frozen breaded strips timing?",
+    "a": "390°F for 14 minutes, flipping at 7. No oil spray needed — they're already par-fried."
+   }
+  ]
+ },
+ {
+  "slug": "whole-chicken",
+  "name": "Whole Roast Chicken",
+  "emoji": "🍗",
+  "category": "Poultry",
+  "keywords": [
+   "whole chicken air fryer",
+   "air fryer rotisserie chicken",
+   "4 lb chicken air fryer time"
+  ],
+  "blurb": "A whole bird in under an hour with skin that beats any oven roast. You need a 5.8-quart basket or larger.",
+  "serving": "1 whole chicken, 3.5-4 lb",
+  "fresh": {
+   "f": 350,
+   "min": 55
+  },
+  "frozen": null,
+  "oven": {
+   "f": 400,
+   "min": 75
+  },
+  "shakeAt": [
+   30
+  ],
+  "shake": "Start breast-side down, flip breast-side up at 30 minutes.",
+  "internalF": 165,
+  "internalNote": "165°F in the thickest part of the thigh, not touching bone. The breast will read slightly higher — that's fine.",
+  "crowd": "high",
+  "prep": "Remove giblets, truss the legs with kitchen twine, and tuck the wing tips under so nothing burns against the element.",
+  "tips": [
+   "Breast-down first uses gravity to baste the breast in thigh fat, then you flip to crisp the skin.",
+   "Dry-brine uncovered in the fridge overnight for the crispiest possible skin.",
+   "Measure your basket first — a 4 lb bird needs roughly 5.8 qt of clearance, and it must not touch the heating element."
+  ],
+  "ingredients": [
+   "1 whole chicken, 3.5-4 lb",
+   "1 tbsp olive oil",
+   "2 tsp kosher salt",
+   "1 tsp black pepper",
+   "1 tsp smoked paprika",
+   "1 tsp garlic powder",
+   "1/2 tsp dried rosemary"
+  ],
+  "steps": [
+   "Remove giblets, pat the bird completely dry, and truss the legs.",
+   "Rub all over with oil and the combined seasoning, including inside the cavity.",
+   "Place breast-side down in the basket.",
+   "Cook at 350°F for 30 minutes.",
+   "Flip breast-side up and cook 25 more minutes until the thigh reads 165°F.",
+   "Rest 10 minutes before carving — this is not optional for a whole bird."
+  ],
+  "faq": [
+   {
+    "q": "What size chicken fits in an air fryer?",
+    "a": "Up to about 4 lb in a 5.8-quart basket, or 5 lb in a 7-quart or oven-style model. The bird must have at least an inch of clearance from the heating element."
+   },
+   {
+    "q": "How long per pound?",
+    "a": "Roughly 14-15 minutes per pound at 350°F, but always finish by thermometer rather than by the clock."
+   }
+  ]
+ },
+ {
+  "slug": "turkey-breast",
+  "name": "Turkey Breast",
+  "emoji": "🦃",
+  "category": "Poultry",
+  "keywords": [
+   "air fryer turkey breast",
+   "bone in turkey breast air fryer",
+   "small thanksgiving turkey"
+  ],
+  "blurb": "A 3-pound turkey breast in 45 minutes frees up your oven on Thanksgiving and produces better skin than a full roast.",
+  "serving": "3 lb bone-in turkey breast",
+  "fresh": {
+   "f": 350,
+   "min": 45
+  },
+  "frozen": null,
+  "oven": {
+   "f": 325,
+   "min": 90
+  },
+  "shakeAt": [
+   25
+  ],
+  "shake": "Start skin-side down, flip skin-side up at 25 minutes.",
+  "internalF": 165,
+  "internalNote": "165°F at the thickest point. Turkey breast is very lean — even 5 degrees over makes a noticeable difference.",
+  "crowd": "high",
+  "prep": "Thaw completely — never air fry a frozen turkey breast. Dry-brine with salt 12-24 hours ahead if you can.",
+  "tips": [
+   "Loosely tent with foil if the skin darkens before the center is done.",
+   "Butter under the skin bastes the lean meat as it renders.",
+   "Rest a full 15 minutes. A large piece of meat continues cooking 5-8 degrees after you pull it."
+  ],
+  "ingredients": [
+   "3 lb bone-in turkey breast, thawed",
+   "2 tbsp softened butter",
+   "2 tsp kosher salt",
+   "1 tsp black pepper",
+   "1 tsp poultry seasoning",
+   "1 tsp garlic powder"
+  ],
+  "steps": [
+   "Pat the breast dry and loosen the skin with your fingers.",
+   "Spread butter under the skin, then rub seasoning over the surface.",
+   "Place skin-side down in the basket.",
+   "Cook at 350°F for 25 minutes.",
+   "Flip skin-side up and cook 20 more minutes to 165°F.",
+   "Rest 15 minutes, tented loosely, before slicing."
+  ],
+  "faq": [
+   {
+    "q": "Can I cook a frozen turkey breast?",
+    "a": "No. A piece this dense will still be frozen at the core long after the exterior is overcooked, which is a real food-safety risk. Thaw in the fridge for 24 hours per 4-5 lb."
+   },
+   {
+    "q": "Boneless turkey breast timing?",
+    "a": "About 35 minutes at 350°F for a 3 lb boneless roast, flipping halfway. It cooks faster without the bone."
+   }
+  ]
+ },
+ {
+  "slug": "bacon",
+  "name": "Bacon",
+  "emoji": "🥓",
+  "category": "Pork",
+  "keywords": [
+   "air fryer bacon",
+   "crispy bacon air fryer time",
+   "bacon temp air fryer"
+  ],
+  "blurb": "No splatter, no standing over a pan, and the fat drains away. The air fryer's best breakfast trick.",
+  "serving": "6 strips",
+  "fresh": {
+   "f": 350,
+   "min": 9
+  },
+  "frozen": {
+   "f": 350,
+   "min": 12
+  },
+  "oven": {
+   "f": 400,
+   "min": 18
+  },
+  "shakeAt": [
+   5
+  ],
+  "shake": "Flip strips at 5 minutes and rearrange any that have curled together.",
+  "internalF": null,
+  "internalNote": "No thermometer needed — bacon is done when it reaches the color and rigidity you like. Cured pork is safe once heated through.",
+  "crowd": "high",
+  "prep": "Cut strips in half so they lie flat. Curled bacon cooks unevenly and touches the element.",
+  "tips": [
+   "Add 2 tablespoons of water to the drawer under the basket — it stops rendered fat from smoking, which is the #1 bacon complaint.",
+   "350°F, not 400°F. Bacon fat starts smoking hard above 375°F.",
+   "Thick-cut needs 12-13 minutes; center-cut needs 7-8. Check at the low end."
+  ],
+  "ingredients": [
+   "6 strips bacon, halved crosswise"
+  ],
+  "steps": [
+   "Pour 2 tbsp water into the drawer beneath the basket to control smoke.",
+   "Lay bacon in a single layer, slight overlap is fine as it shrinks.",
+   "Cook at 350°F for 5 minutes.",
+   "Flip and separate strips, then cook 4 more minutes.",
+   "Drain on paper towels — it crisps further as it cools."
+  ],
+  "faq": [
+   {
+    "q": "Why does my air fryer smoke when cooking bacon?",
+    "a": "Rendered fat pooling under the basket and hitting the hot element. Two tablespoons of water in the drawer solves it completely."
+   },
+   {
+    "q": "Can I cook frozen bacon?",
+    "a": "Yes, at 350°F for about 12 minutes. Cook 3 minutes first, then pry the strips apart with tongs once they loosen."
+   }
+  ]
+ },
+ {
+  "slug": "pork-chops",
+  "name": "Pork Chops",
+  "emoji": "🥩",
+  "category": "Pork",
+  "keywords": [
+   "air fryer pork chops",
+   "boneless pork chops air fryer",
+   "pork chop internal temp"
+  ],
+  "blurb": "Modern pork is bred lean, so the old 'cook until white' advice ruins it. 145°F and a rest gives you a chop that's actually juicy.",
+  "serving": "2 chops, 1-inch thick",
+  "fresh": {
+   "f": 380,
+   "min": 12
+  },
+  "frozen": {
+   "f": 360,
+   "min": 20
+  },
+  "oven": {
+   "f": 400,
+   "min": 20
+  },
+  "shakeAt": [
+   6
+  ],
+  "shake": "Flip once at 6 minutes.",
+  "internalF": 145,
+  "internalNote": "USDA lowered pork to 145°F with a 3-minute rest in 2011. A faint blush of pink at 145°F is safe and expected.",
+  "crowd": "medium",
+  "prep": "Bring chops to room temperature for 20 minutes and pat dry. A cold chop from the fridge cooks unevenly.",
+  "tips": [
+   "145°F plus a 3-minute rest — this is the USDA standard and it's a completely different eating experience from the old 160°F rule.",
+   "Bone-in chops take 2-3 minutes longer but stay juicier.",
+   "A quick brine (1/4 cup salt in 4 cups water, 30 minutes) is the cheapest upgrade available."
+  ],
+  "ingredients": [
+   "2 bone-in pork chops, 1-inch thick",
+   "1 tbsp olive oil",
+   "1 tsp brown sugar",
+   "1 tsp smoked paprika",
+   "1 tsp garlic powder",
+   "3/4 tsp kosher salt",
+   "1/2 tsp black pepper"
+  ],
+  "steps": [
+   "Bring chops to room temp and pat dry.",
+   "Rub with oil and the combined seasoning.",
+   "Arrange in a single layer, not touching.",
+   "Cook at 380°F for 6 minutes, flip, then 6 minutes more.",
+   "Pull at 145°F and rest 3 minutes before serving."
+  ],
+  "faq": [
+   {
+    "q": "Is pink pork safe?",
+    "a": "Yes, at 145°F internal with a 3-minute rest. The USDA revised this guidance in 2011; a slight pink tint in properly cooked pork is normal."
+   },
+   {
+    "q": "Thin-cut pork chops timing?",
+    "a": "Half-inch chops need only about 8 minutes total at 380°F, flipping at 4. They overcook very quickly."
+   }
+  ]
+ },
+ {
+  "slug": "pork-tenderloin",
+  "name": "Pork Tenderloin",
+  "emoji": "🥩",
+  "category": "Pork",
+  "keywords": [
+   "air fryer pork tenderloin",
+   "pork loin air fryer time",
+   "tenderloin internal temp"
+  ],
+  "blurb": "An entire dinner protein in 20 minutes. Tenderloin is uniform in shape, which is exactly what an air fryer handles best.",
+  "serving": "1 tenderloin, 1-1.25 lb",
+  "fresh": {
+   "f": 400,
+   "min": 20
+  },
+  "frozen": null,
+  "oven": {
+   "f": 425,
+   "min": 28
+  },
+  "shakeAt": [
+   10
+  ],
+  "shake": "Rotate a quarter-turn at 10 minutes to brown all four sides.",
+  "internalF": 145,
+  "internalNote": "145°F with a 3-minute rest. Tenderloin is extremely lean — past 150°F it turns dry and grainy fast.",
+  "crowd": "medium",
+  "prep": "Remove the silverskin, the shiny membrane along one side. It doesn't break down and will make the meat curl as it tightens.",
+  "tips": [
+   "Cut it in half if it doesn't fit — two shorter pieces cook the same as one long one.",
+   "Silverskin removal takes 60 seconds and dramatically improves texture.",
+   "Rest 5 minutes then slice into medallions across the grain."
+  ],
+  "ingredients": [
+   "1 pork tenderloin (1-1.25 lb)",
+   "1 tbsp olive oil",
+   "1 tsp Dijon mustard",
+   "1 tsp garlic powder",
+   "1 tsp dried rosemary",
+   "1 tsp kosher salt",
+   "1/2 tsp black pepper"
+  ],
+  "steps": [
+   "Trim silverskin and pat dry.",
+   "Rub with oil and mustard, then coat in the seasoning blend.",
+   "Place diagonally in the basket, halving it if needed.",
+   "Cook at 400°F for 10 minutes.",
+   "Rotate and cook 10 more minutes to 145°F.",
+   "Rest 5 minutes, then slice into 1/2-inch medallions."
+  ],
+  "faq": [
+   {
+    "q": "Tenderloin vs pork loin — same thing?",
+    "a": "No, and it matters. Tenderloin is a small 1 lb muscle that cooks in 20 minutes. Pork loin is a wide 3-4 lb roast needing about 45 minutes at 350°F."
+   },
+   {
+    "q": "Should I sear it first?",
+    "a": "Not necessary. At 400°F the air fryer browns the exterior on its own within the cook time."
+   }
+  ]
+ },
+ {
+  "slug": "steak",
+  "name": "Steak",
+  "emoji": "🥩",
+  "category": "Beef",
+  "keywords": [
+   "air fryer steak",
+   "ribeye air fryer time",
+   "medium rare steak air fryer"
+  ],
+  "blurb": "You won't get a cast-iron crust, but you will get edge-to-edge even doneness with zero smoke alarms — a genuinely good trade in an apartment.",
+  "serving": "1 ribeye or NY strip, 1-inch thick",
+  "fresh": {
+   "f": 400,
+   "min": 10
+  },
+  "frozen": {
+   "f": 360,
+   "min": 20
+  },
+  "oven": {
+   "f": 450,
+   "min": 14
+  },
+  "shakeAt": [
+   5
+  ],
+  "shake": "Flip once at 5 minutes. A single flip gives you the best crust.",
+  "internalF": 145,
+  "internalNote": "USDA recommends 145°F with a 3-minute rest for whole cuts of beef. For personal preference: 130-135°F medium-rare, 140°F medium, 150°F medium-well — these are below the USDA minimum and carry slightly higher risk.",
+  "crowd": "high",
+  "prep": "Salt the steak and leave it uncovered in the fridge for at least 45 minutes. A dry surface is the only way to get browning.",
+  "tips": [
+   "Preheat the air fryer fully for 5 minutes — going into a hot chamber is what forms the crust.",
+   "Never cook two steaks touching. The gap between them is where the browning air travels.",
+   "A 60-second finish in a hot buttered skillet after air frying gives you the best of both methods."
+  ],
+  "ingredients": [
+   "1 ribeye or NY strip steak, 1-inch thick",
+   "1 tsp neutral oil",
+   "1 tsp kosher salt",
+   "1/2 tsp coarse black pepper",
+   "1 tbsp butter (for finishing)",
+   "1 clove garlic, smashed"
+  ],
+  "steps": [
+   "Salt the steak and rest uncovered in the fridge 45 minutes; pat dry.",
+   "Preheat air fryer to 400°F for 5 minutes.",
+   "Rub steak with oil and pepper, place in the hot basket.",
+   "Cook 5 minutes, flip, then 5 minutes for medium-rare (130-135°F).",
+   "Rest 5 minutes, topped with butter and smashed garlic."
+  ],
+  "faq": [
+   {
+    "q": "Can I cook a frozen steak?",
+    "a": "Yes — 360°F for about 20 minutes, flipping at 10. It won't crust as well, but the interior comes out surprisingly even because the frozen core resists overcooking."
+   },
+   {
+    "q": "How do I get a better crust?",
+    "a": "Dry surface, full preheat, and no crowding. For a real hard sear, finish the steak for 45-60 seconds per side in a screaming-hot skillet with butter."
+   }
+  ]
+ },
+ {
+  "slug": "burgers",
+  "name": "Hamburgers",
+  "emoji": "🍔",
+  "category": "Beef",
+  "keywords": [
+   "air fryer burgers",
+   "hamburger air fryer time",
+   "frozen burger patty air fryer"
+  ],
+  "blurb": "Ground beef needs to hit 160°F, which is exactly where burgers usually turn into hockey pucks. The air fryer's fast cycle keeps them juicy at temp.",
+  "serving": "2 patties, 1/3 lb each",
+  "fresh": {
+   "f": 375,
+   "min": 12
+  },
+  "frozen": {
+   "f": 375,
+   "min": 16
+  },
+  "oven": {
+   "f": 425,
+   "min": 18
+  },
+  "shakeAt": [
+   6
+  ],
+  "shake": "Flip at 6 minutes with a thin spatula.",
+  "internalF": 160,
+  "internalNote": "160°F for all ground beef — no exceptions. Grinding distributes surface bacteria throughout the patty, so the whole thing must reach temp.",
+  "crowd": "medium",
+  "prep": "Press a shallow dimple into the center of each raw patty. It stops the burger from doming into a meatball as the proteins contract.",
+  "tips": [
+   "80/20 ground beef is the right ratio. Anything leaner dries out before it reaches 160°F.",
+   "Add cheese in the final 60 seconds with the basket closed — it melts perfectly in the residual heat.",
+   "Don't press the patty while cooking. You're squeezing out the fat that makes it good."
+  ],
+  "ingredients": [
+   "2/3 lb ground beef (80/20)",
+   "3/4 tsp kosher salt",
+   "1/2 tsp black pepper",
+   "1/2 tsp garlic powder",
+   "2 slices cheese (optional)",
+   "2 burger buns"
+  ],
+  "steps": [
+   "Divide beef into two loose patties, slightly wider than your buns.",
+   "Dimple the center of each and season both sides.",
+   "Place in the basket with space between them.",
+   "Cook at 375°F for 6 minutes, flip, then 6 minutes to 160°F.",
+   "Add cheese for the last minute, then rest 2 minutes before assembling."
+  ],
+  "faq": [
+   {
+    "q": "Frozen patties without thawing?",
+    "a": "Yes. 375°F for about 16 minutes, flipping at 8. Season after the surface thaws at around 4 minutes so the seasoning sticks."
+   },
+   {
+    "q": "Do burgers make a mess in the air fryer?",
+    "a": "Some fat drips. Add a tablespoon of water to the drawer below the basket to prevent smoking, and clean the basket while it's still warm."
+   }
+  ]
+ },
+ {
+  "slug": "meatballs",
+  "name": "Meatballs",
+  "emoji": "🍝",
+  "category": "Beef",
+  "keywords": [
+   "air fryer meatballs",
+   "frozen meatballs air fryer",
+   "meatball cooking time"
+  ],
+  "blurb": "Round food and circulating air are a perfect match. Meatballs brown on every surface without you turning a single one in a skillet.",
+  "serving": "16 meatballs, 1.5-inch",
+  "fresh": {
+   "f": 380,
+   "min": 11
+  },
+  "frozen": {
+   "f": 380,
+   "min": 14
+  },
+  "oven": {
+   "f": 400,
+   "min": 20
+  },
+  "shakeAt": [
+   6
+  ],
+  "shake": "Shake the basket at 6 minutes — they'll roll and expose new surfaces.",
+  "internalF": 160,
+  "internalNote": "160°F for beef or pork meatballs; 165°F if they contain ground chicken or turkey.",
+  "crowd": "low",
+  "prep": "Mix gently with wet hands. Overworked ground meat turns dense and springy rather than tender.",
+  "tips": [
+   "A panade — bread soaked in milk — is what keeps meatballs moist. Don't skip it.",
+   "Roll them uniform in size so they finish together; an ice cream scoop makes this easy.",
+   "Frozen pre-cooked meatballs just need reheating to 165°F, roughly 8 minutes."
+  ],
+  "ingredients": [
+   "1 lb ground beef",
+   "1/3 cup breadcrumbs",
+   "3 tbsp milk",
+   "1 egg",
+   "1/4 cup grated Parmesan",
+   "2 cloves garlic, minced",
+   "1 tsp salt",
+   "1/2 tsp black pepper",
+   "2 tbsp chopped parsley"
+  ],
+  "steps": [
+   "Soak breadcrumbs in milk for 5 minutes to form a panade.",
+   "Combine all ingredients, mixing gently with wet hands.",
+   "Roll into 16 even 1.5-inch balls.",
+   "Arrange in a single layer with space between.",
+   "Cook at 380°F for 6 minutes, shake, then 5 more minutes to 160°F."
+  ],
+  "faq": [
+   {
+    "q": "Frozen raw vs frozen cooked meatballs?",
+    "a": "Frozen raw need 14 minutes at 380°F to reach 160°F. Frozen pre-cooked only need reheating — about 8 minutes to 165°F."
+   },
+   {
+    "q": "Can I cook them in sauce?",
+    "a": "Not in the basket. Air fry them dry first, then transfer to simmering sauce. Sauce in the basket blocks airflow and makes a mess."
+   }
+  ]
+ },
+ {
+  "slug": "salmon",
+  "name": "Salmon Fillet",
+  "emoji": "🐟",
+  "category": "Seafood",
+  "keywords": [
+   "air fryer salmon",
+   "salmon temp air fryer",
+   "crispy skin salmon"
+  ],
+  "blurb": "Ten minutes, no fishy kitchen smell lingering for two days, and the skin turns to a crisp chip. Salmon may be the air fryer's best result overall.",
+  "serving": "2 fillets, 6 oz each",
+  "fresh": {
+   "f": 390,
+   "min": 9
+  },
+  "frozen": {
+   "f": 375,
+   "min": 14
+  },
+  "oven": {
+   "f": 400,
+   "min": 15
+  },
+  "shakeAt": [],
+  "shake": "No flip needed. Salmon is delicate and turning it usually breaks the fillet apart.",
+  "internalF": 145,
+  "internalNote": "USDA says 145°F, at which point the flesh flakes easily. Many cooks prefer 125-130°F for a silkier center, which is below the USDA minimum.",
+  "crowd": "low",
+  "prep": "Pat the skin bone-dry and salt it 10 minutes ahead. Wet skin steams; dry skin crisps.",
+  "tips": [
+   "Skin-side down the whole time — the skin acts as insulation and protects the flesh from the direct heat below.",
+   "Thickness governs time, not weight. A 1-inch fillet needs 9 minutes; a thin tail piece needs 6.",
+   "White albumin seeping out means it's overcooking. Pull it earlier next time."
+  ],
+  "ingredients": [
+   "2 salmon fillets, 6 oz each, skin on",
+   "2 tsp olive oil",
+   "1 tsp kosher salt",
+   "1/2 tsp black pepper",
+   "1 tsp garlic powder",
+   "1 lemon, sliced",
+   "1 tsp fresh dill (optional)"
+  ],
+  "steps": [
+   "Pat fillets completely dry, especially the skin.",
+   "Rub with oil and season the flesh side.",
+   "Place skin-side down in the basket, not touching.",
+   "Cook at 390°F for 9 minutes without flipping.",
+   "Check that it flakes with a fork at 145°F; serve with lemon and dill."
+  ],
+  "faq": [
+   {
+    "q": "Can I cook salmon from frozen?",
+    "a": "Yes, and it works well. 375°F for about 14 minutes. Cook 5 minutes first, then season once the surface thaws enough for it to stick."
+   },
+   {
+    "q": "Do I eat the skin?",
+    "a": "Air fryer salmon skin gets genuinely crispy and is the best part. If you don't want it, the cooked fillet lifts cleanly off the skin with a spatula."
+   }
+  ]
+ },
+ {
+  "slug": "shrimp",
+  "name": "Shrimp",
+  "emoji": "🍤",
+  "category": "Seafood",
+  "keywords": [
+   "air fryer shrimp",
+   "frozen shrimp air fryer time",
+   "shrimp temp"
+  ],
+  "blurb": "Six minutes, start to finish. Shrimp is the fastest protein in the air fryer and the easiest to ruin by walking away.",
+  "serving": "1 lb large shrimp (21-25 count)",
+  "fresh": {
+   "f": 400,
+   "min": 6
+  },
+  "frozen": {
+   "f": 400,
+   "min": 9
+  },
+  "oven": {
+   "f": 425,
+   "min": 10
+  },
+  "shakeAt": [
+   3
+  ],
+  "shake": "Shake at 3 minutes. With a 6-minute cook, that single shake matters a lot.",
+  "internalF": 145,
+  "internalNote": "145°F, but visual cues are more practical: shrimp are done when opaque and curled into a loose C. A tight O means overcooked.",
+  "crowd": "low",
+  "prep": "Thaw and dry thoroughly. Wet shrimp release water and poach themselves instead of roasting.",
+  "tips": [
+   "A loose C shape is perfect. A tight O is rubbery. This is the most useful doneness cue in cooking.",
+   "Set a timer — the window between perfect and ruined is under 90 seconds.",
+   "Larger shrimp are more forgiving. Jumbo 16-20 count gives you more margin for error."
+  ],
+  "ingredients": [
+   "1 lb large shrimp, peeled and deveined",
+   "1 tbsp olive oil",
+   "2 cloves garlic, minced",
+   "1 tsp paprika",
+   "3/4 tsp kosher salt",
+   "1/4 tsp red pepper flakes",
+   "1 lemon"
+  ],
+  "steps": [
+   "Thaw shrimp fully and pat very dry.",
+   "Toss with oil, garlic, paprika, salt and pepper flakes.",
+   "Spread in a single layer in the basket.",
+   "Cook at 400°F for 3 minutes, shake, then 3 minutes more.",
+   "Pull the moment they're opaque and C-shaped; finish with lemon juice."
+  ],
+  "faq": [
+   {
+    "q": "Can I cook shrimp from frozen?",
+    "a": "Yes — 400°F for about 9 minutes. Rinse off ice glaze and dry them first, or they'll steam. Shake twice during cooking."
+   },
+   {
+    "q": "Breaded coconut shrimp timing?",
+    "a": "375°F for 8 minutes, flipping at 4. Spray with oil so the coconut toasts golden instead of drying out white."
+   }
+  ]
+ },
+ {
+  "slug": "fish-fillets",
+  "name": "Breaded Fish Fillets",
+  "emoji": "🐟",
+  "category": "Seafood",
+  "keywords": [
+   "air fryer fish fillets",
+   "frozen fish sticks air fryer",
+   "cod air fryer time"
+  ],
+  "blurb": "Fish and chips without the deep fryer. Frozen battered fillets in particular come out dramatically better than from an oven.",
+  "serving": "4 fillets (about 1 lb)",
+  "fresh": {
+   "f": 390,
+   "min": 12
+  },
+  "frozen": {
+   "f": 400,
+   "min": 14
+  },
+  "oven": {
+   "f": 425,
+   "min": 22
+  },
+  "shakeAt": [
+   6
+  ],
+  "shake": "Flip carefully with a thin spatula at 6 minutes — fish breaks easily.",
+  "internalF": 145,
+  "internalNote": "145°F, or until the fish flakes cleanly with a fork and is opaque all the way through.",
+  "crowd": "medium",
+  "prep": "For fresh fish: flour, egg, then panko. Cod, haddock and pollock all work; avoid very thin fillets like sole, which fall apart.",
+  "tips": [
+   "Frozen battered fillets need no oil and no thawing — this is the single easiest air fryer meal.",
+   "Line up fillets in one layer with a finger-width gap; touching fillets fuse together.",
+   "A wire rack or perforated parchment stops delicate fillets sticking to the basket."
+  ],
+  "ingredients": [
+   "1 lb cod or haddock fillets",
+   "1/2 cup flour",
+   "2 eggs, beaten",
+   "1.5 cups panko",
+   "1 tsp Old Bay seasoning",
+   "3/4 tsp salt",
+   "Oil spray",
+   "Lemon wedges"
+  ],
+  "steps": [
+   "Cut fish into even 4-6 oz portions and pat dry.",
+   "Dredge in seasoned flour, then egg, then panko, pressing firmly.",
+   "Spray both sides with oil.",
+   "Arrange in a single layer without touching.",
+   "Cook at 390°F for 6 minutes, flip gently, then 6 minutes more to 145°F."
+  ],
+  "faq": [
+   {
+    "q": "Frozen fish sticks timing?",
+    "a": "400°F for 9-10 minutes, shaking at 5. They're smaller than full fillets so they cook faster."
+   },
+   {
+    "q": "Why did my fish stick to the basket?",
+    "a": "Delicate fish grips bare metal. Use perforated parchment, a light oil spray on the basket, or a wire rack insert."
+   }
+  ]
+ },
+ {
+  "slug": "frozen-french-fries",
+  "name": "Frozen French Fries",
+  "emoji": "🍟",
+  "category": "Frozen Favorites",
+  "keywords": [
+   "frozen fries air fryer",
+   "air fryer french fries time",
+   "crispy frozen fries"
+  ],
+  "blurb": "The reason most people buy an air fryer. Frozen fries come out closer to fast-food quality than any oven can manage.",
+  "serving": "1 lb frozen fries",
+  "fresh": {
+   "f": 400,
+   "min": 15
+  },
+  "frozen": {
+   "f": 400,
+   "min": 16
+  },
+  "oven": {
+   "f": 450,
+   "min": 25
+  },
+  "shakeAt": [
+   6,
+   11
+  ],
+  "shake": "Shake twice — at 6 and 11 minutes. Fries stick to each other more than any other food.",
+  "internalF": null,
+  "internalNote": "No internal temp needed. Fries are done when the outside is golden and rigid and the inside is fluffy.",
+  "crowd": "high",
+  "prep": "Straight from the freezer. Never thaw fries — thawed potato goes limp and soggy.",
+  "tips": [
+   "Two shakes minimum. Fries clump and the clumped faces stay pale.",
+   "Cook no more than a 1.5-inch deep layer. Beyond that, the top browns and the bottom steams.",
+   "No oil needed for most frozen fries; they're par-fried already. A light spray helps thin shoestring cuts."
+  ],
+  "ingredients": [
+   "1 lb frozen French fries",
+   "Optional: 1 tsp oil spray",
+   "Salt to taste"
+  ],
+  "steps": [
+   "Pour fries into the basket straight from the freezer.",
+   "Cook at 400°F for 6 minutes.",
+   "Shake vigorously and cook 5 more minutes.",
+   "Shake again and cook a final 5 minutes until deep golden.",
+   "Salt immediately while hot so it sticks."
+  ],
+  "faq": [
+   {
+    "q": "Do I need to preheat for frozen fries?",
+    "a": "A 3-minute preheat gives measurably crispier results because the fries hit hot metal immediately instead of warming up slowly with the chamber."
+   },
+   {
+    "q": "Why are my fries soggy?",
+    "a": "Overcrowding, almost always. Halve the batch. Also make sure you never thaw them first."
+   }
+  ]
+ },
+ {
+  "slug": "sweet-potato-fries",
+  "name": "Sweet Potato Fries",
+  "emoji": "🍠",
+  "category": "Vegetables",
+  "keywords": [
+   "air fryer sweet potato fries",
+   "crispy sweet potato fries",
+   "homemade sweet potato fries"
+  ],
+  "blurb": "Sweet potatoes have more sugar and moisture than russets, so they burn and sag more easily. Cornstarch and a lower temperature fix both problems.",
+  "serving": "2 medium sweet potatoes",
+  "fresh": {
+   "f": 380,
+   "min": 16
+  },
+  "frozen": {
+   "f": 400,
+   "min": 15
+  },
+  "oven": {
+   "f": 425,
+   "min": 28
+  },
+  "shakeAt": [
+   8
+  ],
+  "shake": "Shake at 8 minutes and separate any that have fused.",
+  "internalF": null,
+  "internalNote": "Done by texture: crisp edges, tender centers. Sweet potato needs to cook through or it stays starchy.",
+  "crowd": "high",
+  "prep": "Soak cut fries in cold water 30 minutes to leach surface starch, then dry completely. This is the step everyone skips and it's the one that matters.",
+  "tips": [
+   "One tablespoon of cornstarch per pound creates a thin shell that turns genuinely crispy.",
+   "380°F, not 400°F. Sweet potato sugars scorch before the inside softens at higher heat.",
+   "Cut into uniform 1/4-inch batons. Thick-cut wedges will never crisp the same way."
+  ],
+  "ingredients": [
+   "2 medium sweet potatoes, cut into 1/4-inch fries",
+   "1 tbsp cornstarch",
+   "1 tbsp olive oil",
+   "1 tsp smoked paprika",
+   "3/4 tsp kosher salt",
+   "1/4 tsp cayenne (optional)"
+  ],
+  "steps": [
+   "Soak the cut fries in cold water for 30 minutes, then dry completely with towels.",
+   "Toss with cornstarch until evenly dusted.",
+   "Add oil and seasonings and toss again.",
+   "Cook at 380°F for 8 minutes in a single layer.",
+   "Shake and cook 8 more minutes until edges are crisp."
+  ],
+  "faq": [
+   {
+    "q": "Why won't my sweet potato fries get crispy?",
+    "a": "Excess moisture and no starch coating. Soak, dry thoroughly, and use cornstarch. Also cook in two batches rather than one crowded one."
+   },
+   {
+    "q": "Frozen sweet potato fries?",
+    "a": "400°F for 15 minutes, shaking twice. Frozen ones are pre-treated and crisp more reliably than homemade."
+   }
+  ]
+ },
+ {
+  "slug": "tater-tots",
+  "name": "Tater Tots",
+  "emoji": "🥔",
+  "category": "Frozen Favorites",
+  "keywords": [
+   "air fryer tater tots",
+   "frozen tots time",
+   "crispy tater tots"
+  ],
+  "blurb": "Tots are engineered for hot circulating air. They come out uniformly bronzed with a crackly shell every single time.",
+  "serving": "1 lb frozen tots",
+  "fresh": {
+   "f": 400,
+   "min": 14
+  },
+  "frozen": {
+   "f": 400,
+   "min": 14
+  },
+  "oven": {
+   "f": 450,
+   "min": 25
+  },
+  "shakeAt": [
+   7
+  ],
+  "shake": "Shake once at 7 minutes.",
+  "internalF": null,
+  "internalNote": "Done when uniformly golden brown and firm to a tong squeeze.",
+  "crowd": "medium",
+  "prep": "No prep at all. Straight from the bag.",
+  "tips": [
+   "Tots tolerate a slightly deeper layer than fries because their shape leaves natural air gaps.",
+   "Add 2 minutes if you want them shatteringly crisp rather than just cooked.",
+   "Cheese and toppings go on in the last 2 minutes, not before."
+  ],
+  "ingredients": [
+   "1 lb frozen tater tots",
+   "Salt to taste"
+  ],
+  "steps": [
+   "Add tots to the basket in a roughly even layer.",
+   "Cook at 400°F for 7 minutes.",
+   "Shake the basket well.",
+   "Cook 7 more minutes until deep golden.",
+   "Season and serve hot."
+  ],
+  "faq": [
+   {
+    "q": "Can I make a tot casserole in the air fryer?",
+    "a": "Use a small oven-safe dish inside the basket for cheese-topped tots. Airflow drops with a solid dish, so add about 4 minutes."
+   },
+   {
+    "q": "Preheat needed?",
+    "a": "Optional but helpful. Three minutes of preheat gives a crisper exterior."
+   }
+  ]
+ },
+ {
+  "slug": "onion-rings",
+  "name": "Onion Rings",
+  "emoji": "🧅",
+  "category": "Frozen Favorites",
+  "keywords": [
+   "air fryer onion rings",
+   "frozen onion rings time",
+   "crispy onion rings"
+  ],
+  "blurb": "Frozen onion rings crisp beautifully. Homemade battered ones are trickier — the air fryer can't set a wet batter the way hot oil does.",
+  "serving": "1 lb frozen rings",
+  "fresh": {
+   "f": 380,
+   "min": 12
+  },
+  "frozen": {
+   "f": 400,
+   "min": 10
+  },
+  "oven": {
+   "f": 450,
+   "min": 18
+  },
+  "shakeAt": [
+   5
+  ],
+  "shake": "Flip with tongs at 5 minutes rather than shaking; rings break.",
+  "internalF": null,
+  "internalNote": "Golden brown and crisp; the onion inside should be soft and translucent.",
+  "crowd": "medium",
+  "prep": "For homemade, use a dry breading — flour, egg, panko — not a wet beer batter. Wet batter drips through the basket before it sets.",
+  "tips": [
+   "Frozen rings need no oil. Homemade breaded ones need a generous oil spray or the flour tastes raw.",
+   "Single layer, no overlap. Overlapping rings weld together.",
+   "Wet batters do not work in an air fryer. Use a breaded coating instead."
+  ],
+  "ingredients": [
+   "1 lb frozen onion rings, or 2 large onions plus breading",
+   "Oil spray (homemade only)"
+  ],
+  "steps": [
+   "Arrange rings in a single layer, standing some against the basket wall if needed.",
+   "Cook at 400°F for 5 minutes.",
+   "Flip each ring with tongs.",
+   "Cook 5 more minutes until golden and crisp."
+  ],
+  "faq": [
+   {
+    "q": "Can I use beer batter?",
+    "a": "No. Wet batter drips off before it sets and makes a mess of the drawer. Use flour, egg wash, and panko instead."
+   },
+   {
+    "q": "Homemade onion ring timing?",
+    "a": "380°F for 12 minutes, flipping at 6, with a solid oil spray on both sides."
+   }
+  ]
+ },
+ {
+  "slug": "mozzarella-sticks",
+  "name": "Mozzarella Sticks",
+  "emoji": "🧀",
+  "category": "Frozen Favorites",
+  "keywords": [
+   "air fryer mozzarella sticks",
+   "frozen mozzarella sticks time",
+   "cheese sticks air fryer"
+  ],
+  "blurb": "High reward, low margin for error. Thirty seconds too long and you have a puddle of cheese and an empty breadcrumb shell.",
+  "serving": "12 frozen sticks",
+  "fresh": {
+   "f": 380,
+   "min": 8
+  },
+  "frozen": {
+   "f": 390,
+   "min": 7
+  },
+  "oven": {
+   "f": 425,
+   "min": 12
+  },
+  "shakeAt": [
+   4
+  ],
+  "shake": "Flip gently with tongs at 4 minutes.",
+  "internalF": null,
+  "internalNote": "Done when the coating is golden and the cheese is just molten. Do not wait for cheese to visibly bubble out — that's already too far.",
+  "crowd": "low",
+  "prep": "Keep them frozen solid until the second they go in. Any thawing guarantees a blowout.",
+  "tips": [
+   "Set a timer and watch the last 2 minutes. This food genuinely does not forgive inattention.",
+   "Never thaw. Frozen-solid cheese is what buys you time for the coating to brown.",
+   "Leave gaps between sticks — cheese that leaks will glue neighbors together."
+  ],
+  "ingredients": [
+   "12 frozen mozzarella sticks",
+   "Marinara for dipping"
+  ],
+  "steps": [
+   "Place frozen sticks in a single layer with space between them.",
+   "Cook at 390°F for 4 minutes.",
+   "Flip carefully with tongs.",
+   "Cook 3 more minutes, checking at 2.",
+   "Remove the instant the coating is golden; rest 1 minute before serving."
+  ],
+  "faq": [
+   {
+    "q": "Why did my cheese explode out?",
+    "a": "Too long, too hot, or partially thawed. Drop to 380°F, cut a minute, and cook straight from a solid freeze."
+   },
+   {
+    "q": "Can I make them from scratch?",
+    "a": "Yes, but double-bread them and freeze the breaded sticks for at least 2 hours before cooking. Single-breaded fresh cheese will always burst."
+   }
+  ]
+ },
+ {
+  "slug": "frozen-pizza",
+  "name": "Frozen Pizza",
+  "emoji": "🍕",
+  "category": "Frozen Favorites",
+  "keywords": [
+   "air fryer frozen pizza",
+   "personal pizza air fryer",
+   "pizza time air fryer"
+  ],
+  "blurb": "A crisper base than any oven produces, in a third of the time — as long as the pizza physically fits your basket.",
+  "serving": "1 personal pizza, 7-9 inch",
+  "fresh": {
+   "f": 375,
+   "min": 8
+  },
+  "frozen": {
+   "f": 375,
+   "min": 9
+  },
+  "oven": {
+   "f": 425,
+   "min": 18
+  },
+  "shakeAt": [],
+  "shake": "No flip or shake. Rotate the pizza 180° at 5 minutes if your model browns unevenly.",
+  "internalF": null,
+  "internalNote": "Done when the cheese is fully melted with a few browned spots and the crust edge is firm.",
+  "crowd": "low",
+  "prep": "Measure your basket before you buy. Most baskets take a 7-8 inch pizza; oven-style models handle 9-10 inches.",
+  "tips": [
+   "Cook straight from frozen — a thawed frozen pizza goes soggy in the middle.",
+   "If cheese starts to fly around from the fan, place a toothpick through the center of the pizza to pin it down.",
+   "Watch the crust edge, not the clock. Thin crust can finish 2 minutes early."
+  ],
+  "ingredients": [
+   "1 personal-size frozen pizza (7-9 inch)"
+  ],
+  "steps": [
+   "Remove all packaging and any cardboard disc.",
+   "Place the frozen pizza directly in the basket.",
+   "Cook at 375°F for 5 minutes.",
+   "Check and rotate if browning unevenly, then cook 4 more minutes.",
+   "Rest 2 minutes before slicing so the cheese sets."
+  ],
+  "faq": [
+   {
+    "q": "What if my pizza doesn't fit?",
+    "a": "Cut it into quarters and cook two at a time, or use French bread and pita as a base instead. Never force a pizza to curl up the basket wall."
+   },
+   {
+    "q": "Can I reheat leftover pizza?",
+    "a": "Yes, and it's the best method there is. 350°F for 3-4 minutes restores a crisp base — a microwave never will."
+   }
+  ]
+ },
+ {
+  "slug": "brussels-sprouts",
+  "name": "Brussels Sprouts",
+  "emoji": "🥬",
+  "category": "Vegetables",
+  "keywords": [
+   "air fryer brussels sprouts",
+   "crispy brussels sprouts",
+   "brussels sprouts time"
+  ],
+  "blurb": "The vegetable that converts skeptics. Air frying caramelizes the outer leaves into something closer to a chip than a boiled sprout.",
+  "serving": "1 lb sprouts",
+  "fresh": {
+   "f": 380,
+   "min": 15
+  },
+  "frozen": {
+   "f": 380,
+   "min": 18
+  },
+  "oven": {
+   "f": 425,
+   "min": 25
+  },
+  "shakeAt": [
+   8
+  ],
+  "shake": "Shake hard at 8 minutes. The loose outer leaves that fall off become the best part.",
+  "internalF": null,
+  "internalNote": "Done when a knife slides into the core with no resistance and the outer leaves are dark and crisp.",
+  "crowd": "medium",
+  "prep": "Halve them through the stem and trim the dry base. Cut-side down for the first half of cooking gives you a caramelized flat face.",
+  "tips": [
+   "Cut-side down first — that flat surface against hot metal is where the deep browning happens.",
+   "Don't rescue the loose leaves that fall off. They turn into crisps and everyone fights over them.",
+   "A drizzle of balsamic or honey in the last 2 minutes glazes without burning."
+  ],
+  "ingredients": [
+   "1 lb Brussels sprouts, halved",
+   "1.5 tbsp olive oil",
+   "3/4 tsp kosher salt",
+   "1/2 tsp black pepper",
+   "2 cloves garlic, minced",
+   "1 tbsp balsamic vinegar (optional finish)"
+  ],
+  "steps": [
+   "Trim and halve sprouts through the stem.",
+   "Toss with oil, salt, pepper and garlic.",
+   "Arrange cut-side down in a single layer.",
+   "Cook at 380°F for 8 minutes.",
+   "Shake and cook 7 more minutes until browned and tender.",
+   "Finish with balsamic if using."
+  ],
+  "faq": [
+   {
+    "q": "Frozen Brussels sprouts?",
+    "a": "They work but won't get as crisp because of ice content. 380°F for 18 minutes, shaking twice, and don't thaw first."
+   },
+   {
+    "q": "Why are mine bitter?",
+    "a": "Undercooking. Bitterness breaks down with caramelization — push them 3-4 minutes further than feels right."
+   }
+  ]
+ },
+ {
+  "slug": "broccoli",
+  "name": "Broccoli",
+  "emoji": "🥦",
+  "category": "Vegetables",
+  "keywords": [
+   "air fryer broccoli",
+   "roasted broccoli air fryer",
+   "broccoli time and temp"
+  ],
+  "blurb": "Charred tips, tender stems, eight minutes. Just be aware that dry florets can scorch — a little oil is genuinely required here.",
+  "serving": "1 large head, cut into florets",
+  "fresh": {
+   "f": 375,
+   "min": 9
+  },
+  "frozen": {
+   "f": 375,
+   "min": 13
+  },
+  "oven": {
+   "f": 425,
+   "min": 20
+  },
+  "shakeAt": [
+   5
+  ],
+  "shake": "Shake at 5 minutes so the top florets swap places with the bottom ones.",
+  "internalF": null,
+  "internalNote": "Done when stems are fork-tender and floret tips are browned and slightly crisp.",
+  "crowd": "low",
+  "prep": "Cut into even florets with some flat surface. Toss with oil thoroughly — unoiled floret tips burn to ash while stems stay raw.",
+  "tips": [
+   "Broccoli must be oiled. The delicate tips carbonize without a fat coating.",
+   "Cut florets no larger than 1.5 inches, or the stem won't cook through before the top burns.",
+   "Parmesan and lemon zest in the final minute is the standard finish for a reason."
+  ],
+  "ingredients": [
+   "1 large head broccoli, cut into florets",
+   "1.5 tbsp olive oil",
+   "3/4 tsp kosher salt",
+   "1/2 tsp garlic powder",
+   "1/4 tsp red pepper flakes",
+   "2 tbsp grated Parmesan",
+   "Zest of 1/2 lemon"
+  ],
+  "steps": [
+   "Cut broccoli into even 1.5-inch florets.",
+   "Toss thoroughly with oil until every tip is coated.",
+   "Season with salt, garlic powder and pepper flakes.",
+   "Cook at 375°F for 5 minutes, shake, then 4 minutes more.",
+   "Toss with Parmesan and lemon zest off the heat."
+  ],
+  "faq": [
+   {
+    "q": "Frozen broccoli in the air fryer?",
+    "a": "Yes — 375°F for 13 minutes, no thawing. It'll be softer than fresh because of ice, but the tips still brown."
+   },
+   {
+    "q": "Why did mine burn?",
+    "a": "Not enough oil, or florets cut too small. Toss until visibly glossy and keep pieces at least an inch across."
+   }
+  ]
+ },
+ {
+  "slug": "potatoes",
+  "name": "Baby Potatoes",
+  "emoji": "🥔",
+  "category": "Vegetables",
+  "keywords": [
+   "air fryer potatoes",
+   "roasted baby potatoes",
+   "crispy potatoes air fryer"
+  ],
+  "blurb": "Crackly skin, creamy interior. Air-fried baby potatoes are one of the few side dishes that genuinely improve on the oven version.",
+  "serving": "1.5 lb baby potatoes",
+  "fresh": {
+   "f": 390,
+   "min": 20
+  },
+  "frozen": {
+   "f": 400,
+   "min": 22
+  },
+  "oven": {
+   "f": 425,
+   "min": 35
+  },
+  "shakeAt": [
+   10
+  ],
+  "shake": "Shake at 10 minutes and again at 15 if you're cooking a full basket.",
+  "internalF": null,
+  "internalNote": "Done when a knife or skewer slides through with no resistance and the skin is blistered.",
+  "crowd": "high",
+  "prep": "Halve anything bigger than a golf ball. A 5-minute par-boil before air frying gives you the fluffiest possible interior.",
+  "tips": [
+   "Par-boiling for 5 minutes then roughing them up in the colander creates edges that fry into crunchy shards.",
+   "Halve them cut-side down for a caramelized flat face.",
+   "Add fresh herbs like rosemary at the end, not the start — they burn at 390°F."
+  ],
+  "ingredients": [
+   "1.5 lb baby potatoes, halved",
+   "2 tbsp olive oil",
+   "1 tsp kosher salt",
+   "1/2 tsp black pepper",
+   "1 tsp garlic powder",
+   "1 tsp dried rosemary",
+   "2 tbsp chopped parsley"
+  ],
+  "steps": [
+   "Halve potatoes and optionally par-boil 5 minutes, then drain and dry.",
+   "Toss with oil, salt, pepper, garlic powder and rosemary.",
+   "Arrange cut-side down in a single layer.",
+   "Cook at 390°F for 10 minutes.",
+   "Shake and cook 10 more minutes until crisp and fork-tender.",
+   "Toss with parsley before serving."
+  ],
+  "faq": [
+   {
+    "q": "Whole baked potato in the air fryer?",
+    "a": "Yes. A large russet takes about 40 minutes at 390°F. Pierce it several times, rub with oil and salt, and turn once at 20 minutes."
+   },
+   {
+    "q": "Do I need to par-boil?",
+    "a": "No, but it produces a noticeably fluffier interior and crispier crust. Skip it on a weeknight, do it for guests."
+   }
+  ]
+ },
+ {
+  "slug": "asparagus",
+  "name": "Asparagus",
+  "emoji": "🥬",
+  "category": "Vegetables",
+  "keywords": [
+   "air fryer asparagus",
+   "asparagus time air fryer",
+   "roasted asparagus"
+  ],
+  "blurb": "Seven minutes from raw to blistered. Asparagus is the fastest vegetable in the machine and the hardest to overcook badly.",
+  "serving": "1 bunch (about 1 lb)",
+  "fresh": {
+   "f": 390,
+   "min": 7
+  },
+  "frozen": {
+   "f": 390,
+   "min": 11
+  },
+  "oven": {
+   "f": 425,
+   "min": 14
+  },
+  "shakeAt": [
+   4
+  ],
+  "shake": "Shake or roll the spears at 4 minutes.",
+  "internalF": null,
+  "internalNote": "Done when spears bend slightly under their own weight but still snap when bitten.",
+  "crowd": "low",
+  "prep": "Snap off the woody ends — hold each spear and bend until it breaks naturally at the tender point.",
+  "tips": [
+   "Thick spears take 9 minutes, pencil-thin ones only 5. Sort by thickness before cooking.",
+   "Lay them perpendicular to the basket slots so none fall through.",
+   "Parmesan and lemon added off-heat prevents the cheese from scorching."
+  ],
+  "ingredients": [
+   "1 lb asparagus, woody ends removed",
+   "1 tbsp olive oil",
+   "3/4 tsp kosher salt",
+   "1/2 tsp black pepper",
+   "2 tbsp grated Parmesan",
+   "1/2 lemon"
+  ],
+  "steps": [
+   "Snap off woody ends and dry the spears.",
+   "Toss with oil, salt and pepper.",
+   "Lay in a single layer across the basket slots.",
+   "Cook at 390°F for 4 minutes, shake, then 3 more.",
+   "Finish with Parmesan and a squeeze of lemon."
+  ],
+  "faq": [
+   {
+    "q": "Frozen asparagus?",
+    "a": "390°F for about 11 minutes. It comes out softer than fresh — frozen asparagus has already had its cell walls ruptured by ice."
+   },
+   {
+    "q": "How do I stop thin spears burning?",
+    "a": "Cut 2 minutes off and check at 5. Very thin asparagus cooks nearly twice as fast as thick spears."
+   }
+  ]
+ },
+ {
+  "slug": "cauliflower",
+  "name": "Cauliflower",
+  "emoji": "🥦",
+  "category": "Vegetables",
+  "keywords": [
+   "air fryer cauliflower",
+   "buffalo cauliflower air fryer",
+   "roasted cauliflower time"
+  ],
+  "blurb": "Air frying turns cauliflower nutty and golden instead of the watery blandness you get from steaming.",
+  "serving": "1 head, cut into florets",
+  "fresh": {
+   "f": 390,
+   "min": 14
+  },
+  "frozen": {
+   "f": 390,
+   "min": 18
+  },
+  "oven": {
+   "f": 425,
+   "min": 25
+  },
+  "shakeAt": [
+   7
+  ],
+  "shake": "Shake at 7 minutes to rotate the browned faces.",
+  "internalF": null,
+  "internalNote": "Done when edges are deeply golden and a knife enters the stem easily.",
+  "crowd": "medium",
+  "prep": "Cut florets so each has one flat cut face. Flat faces are where browning happens.",
+  "tips": [
+   "Cauliflower absorbs oil quickly — measure it rather than pouring, or it turns greasy.",
+   "For buffalo cauliflower, sauce it in the last 3 minutes only.",
+   "Turmeric or curry powder is especially good here; cauliflower is bland enough to take strong spice."
+  ],
+  "ingredients": [
+   "1 head cauliflower, cut into florets",
+   "1.5 tbsp olive oil",
+   "1 tsp smoked paprika",
+   "1 tsp garlic powder",
+   "3/4 tsp kosher salt",
+   "1/2 tsp cumin",
+   "1/4 tsp black pepper"
+  ],
+  "steps": [
+   "Cut cauliflower into even florets with flat faces.",
+   "Toss with oil and all seasonings.",
+   "Spread in a single layer, flat sides down.",
+   "Cook at 390°F for 7 minutes.",
+   "Shake and cook 7 more minutes until browned at the edges."
+  ],
+  "faq": [
+   {
+    "q": "Frozen cauliflower?",
+    "a": "390°F for 18 minutes, shaking twice. Expect softer texture than fresh — there's no way around the ice content."
+   },
+   {
+    "q": "How do I make buffalo cauliflower?",
+    "a": "Air fry plain for 11 minutes, toss in buffalo sauce, then return for 3 more minutes to set the glaze."
+   }
+  ]
+ },
+ {
+  "slug": "zucchini",
+  "name": "Zucchini",
+  "emoji": "🥒",
+  "category": "Vegetables",
+  "keywords": [
+   "air fryer zucchini",
+   "zucchini chips air fryer",
+   "zucchini time"
+  ],
+  "blurb": "Zucchini is 95% water, which is exactly why most people end up with mush. Salting first is mandatory, not optional.",
+  "serving": "2 medium zucchini",
+  "fresh": {
+   "f": 400,
+   "min": 12
+  },
+  "frozen": null,
+  "oven": {
+   "f": 425,
+   "min": 20
+  },
+  "shakeAt": [
+   6
+  ],
+  "shake": "Shake at 6 minutes, gently — cooked zucchini falls apart.",
+  "internalF": null,
+  "internalNote": "Done when edges are browned and slices are tender but still hold their shape.",
+  "crowd": "low",
+  "prep": "Slice into 1/2-inch rounds or spears, salt them, and let them drain in a colander 15 minutes. Then press dry with towels. This removes surprising amounts of water.",
+  "tips": [
+   "Salt-and-drain first. Skipping it is the entire reason zucchini turns to mush.",
+   "Cut thick — 1/2-inch minimum. Thin slices have no structure left after cooking.",
+   "400°F drives water off fast. Lower temperatures just steam it."
+  ],
+  "ingredients": [
+   "2 medium zucchini, cut into 1/2-inch rounds",
+   "1 tsp salt (for draining)",
+   "1 tbsp olive oil",
+   "1 tsp Italian seasoning",
+   "1/2 tsp garlic powder",
+   "2 tbsp grated Parmesan",
+   "Black pepper"
+  ],
+  "steps": [
+   "Slice zucchini, toss with 1 tsp salt, and drain in a colander 15 minutes.",
+   "Press slices dry between paper towels.",
+   "Toss with oil, Italian seasoning and garlic powder.",
+   "Cook at 400°F for 6 minutes, shake, then 6 more.",
+   "Finish with Parmesan and pepper."
+  ],
+  "faq": [
+   {
+    "q": "Why is my zucchini soggy?",
+    "a": "You skipped the salt-and-drain step, or cut it too thin. Both are fixable — salt for 15 minutes and cut at least 1/2-inch thick."
+   },
+   {
+    "q": "Can I bread zucchini chips?",
+    "a": "Yes. Salt and dry first, then flour, egg and panko. Cook at 400°F for 10 minutes, flipping once, with an oil spray."
+   }
+  ]
+ },
+ {
+  "slug": "green-beans",
+  "name": "Green Beans",
+  "emoji": "🫛",
+  "category": "Vegetables",
+  "keywords": [
+   "air fryer green beans",
+   "blistered green beans",
+   "green beans time"
+  ],
+  "blurb": "Blistered, snappy, and done in eight minutes — closer to restaurant blistered beans than to the soft ones from a pot.",
+  "serving": "1 lb fresh green beans",
+  "fresh": {
+   "f": 375,
+   "min": 8
+  },
+  "frozen": {
+   "f": 375,
+   "min": 12
+  },
+  "oven": {
+   "f": 425,
+   "min": 16
+  },
+  "shakeAt": [
+   4
+  ],
+  "shake": "Shake at 4 minutes.",
+  "internalF": null,
+  "internalNote": "Done when beans are blistered in spots and snap rather than bend.",
+  "crowd": "low",
+  "prep": "Trim the stem ends and dry thoroughly after washing.",
+  "tips": [
+   "Wet beans steam instead of blistering — dry them properly after washing.",
+   "Garlic added at the start burns; add minced garlic in the last 2 minutes.",
+   "Frozen green beans work, but expect limp texture rather than snap."
+  ],
+  "ingredients": [
+   "1 lb fresh green beans, trimmed",
+   "1 tbsp olive oil",
+   "3/4 tsp kosher salt",
+   "1/2 tsp black pepper",
+   "2 cloves garlic, minced",
+   "1 tsp lemon zest",
+   "2 tbsp slivered almonds (optional)"
+  ],
+  "steps": [
+   "Trim and thoroughly dry the beans.",
+   "Toss with oil, salt and pepper.",
+   "Spread in the basket in a loose layer.",
+   "Cook at 375°F for 4 minutes, shake, then 3 minutes.",
+   "Add garlic and almonds for the final minute; finish with lemon zest."
+  ],
+  "faq": [
+   {
+    "q": "Frozen green beans?",
+    "a": "375°F for 12 minutes, shaking twice. Don't thaw — go straight from frozen and accept a softer result."
+   },
+   {
+    "q": "Can I make green bean fries?",
+    "a": "Yes. Bread them in flour, egg and panko, spray with oil, and cook at 390°F for 9 minutes, flipping once."
+   }
+  ]
+ },
+ {
+  "slug": "corn-on-the-cob",
+  "name": "Corn on the Cob",
+  "emoji": "🌽",
+  "category": "Vegetables",
+  "keywords": [
+   "air fryer corn on the cob",
+   "corn air fryer time",
+   "elote air fryer"
+  ],
+  "blurb": "Roasted, slightly charred corn without boiling a giant pot of water in August.",
+  "serving": "4 ears, husked",
+  "fresh": {
+   "f": 390,
+   "min": 12
+  },
+  "frozen": {
+   "f": 390,
+   "min": 16
+  },
+  "oven": {
+   "f": 425,
+   "min": 22
+  },
+  "shakeAt": [
+   6
+  ],
+  "shake": "Roll each ear a half-turn at 6 minutes.",
+  "internalF": null,
+  "internalNote": "Done when kernels are plump, bright yellow, and lightly charred in spots.",
+  "crowd": "medium",
+  "prep": "Husk completely and remove all silk. Snap ears in half if they don't fit your basket.",
+  "tips": [
+   "Butter after cooking, not before — butter burns and smokes at 390°F.",
+   "Halve the ears to fit and to get more surface contact with the basket.",
+   "For elote, brush with mayo-crema mix in the final 2 minutes then top with cotija and chili."
+  ],
+  "ingredients": [
+   "4 ears corn, husked",
+   "1 tbsp neutral oil",
+   "1 tsp kosher salt",
+   "2 tbsp butter, for serving",
+   "1/2 tsp chili powder (optional)",
+   "Lime wedges"
+  ],
+  "steps": [
+   "Husk corn and remove all silk; halve ears if needed to fit.",
+   "Rub lightly with oil and salt.",
+   "Arrange in a single layer, not stacked.",
+   "Cook at 390°F for 6 minutes, roll, then 6 more minutes.",
+   "Top with butter, chili powder and lime off the heat."
+  ],
+  "faq": [
+   {
+    "q": "Can I cook corn in the husk?",
+    "a": "Yes — 390°F for about 15 minutes. The husk steams the kernels, giving a softer, sweeter result with no char."
+   },
+   {
+    "q": "Frozen corn on the cob?",
+    "a": "390°F for 16 minutes, rolling twice. It's already blanched, so you're mostly heating and browning it."
+   }
+  ]
+ },
+ {
+  "slug": "mushrooms",
+  "name": "Mushrooms",
+  "emoji": "🍄",
+  "category": "Vegetables",
+  "keywords": [
+   "air fryer mushrooms",
+   "roasted mushrooms air fryer",
+   "garlic butter mushrooms"
+  ],
+  "blurb": "Mushrooms release a lot of water, then brown fast once it's gone. The air fryer moves through both stages quicker than a skillet.",
+  "serving": "1 lb cremini or button mushrooms",
+  "fresh": {
+   "f": 380,
+   "min": 12
+  },
+  "frozen": null,
+  "oven": {
+   "f": 425,
+   "min": 20
+  },
+  "shakeAt": [
+   6
+  ],
+  "shake": "Shake at 6 minutes, right around when the released water has evaporated.",
+  "internalF": null,
+  "internalNote": "Done when browned, shrunk by roughly a third, and no liquid remains in the basket.",
+  "crowd": "medium",
+  "prep": "Wipe clean with a damp cloth rather than rinsing. Mushrooms are sponges and soaked ones never brown.",
+  "tips": [
+   "Don't salt until the last 3 minutes — early salt draws out water and prolongs the steaming phase.",
+   "Halve or quarter them; whole mushrooms take twice as long to release their water.",
+   "Butter and garlic go in at the end, once the water has cooked off."
+  ],
+  "ingredients": [
+   "1 lb cremini mushrooms, halved",
+   "1 tbsp olive oil",
+   "2 cloves garlic, minced",
+   "1 tbsp butter",
+   "1/2 tsp kosher salt",
+   "1/2 tsp black pepper",
+   "1 tsp fresh thyme"
+  ],
+  "steps": [
+   "Wipe mushrooms clean and halve them.",
+   "Toss with oil only — no salt yet.",
+   "Cook at 380°F for 6 minutes.",
+   "Shake, add garlic, butter, salt and pepper, then cook 6 more minutes.",
+   "Toss with thyme and serve."
+  ],
+  "faq": [
+   {
+    "q": "Why are my mushrooms watery?",
+    "a": "Salted too early, or crowded. Salt at the end and cook in a single loose layer so the released steam can escape."
+   },
+   {
+    "q": "Stuffed mushrooms?",
+    "a": "370°F for 10 minutes. Use large portobello or stuffing-size caps and don't overfill, or the filling spills as they shrink."
+   }
+  ]
+ },
+ {
+  "slug": "carrots",
+  "name": "Carrots",
+  "emoji": "🥕",
+  "category": "Vegetables",
+  "keywords": [
+   "air fryer carrots",
+   "roasted carrots air fryer",
+   "honey glazed carrots"
+  ],
+  "blurb": "Roasting concentrates carrot sugars into something almost candied. Air frying does it in half the oven's time.",
+  "serving": "1 lb carrots",
+  "fresh": {
+   "f": 380,
+   "min": 16
+  },
+  "frozen": {
+   "f": 380,
+   "min": 20
+  },
+  "oven": {
+   "f": 425,
+   "min": 28
+  },
+  "shakeAt": [
+   8
+  ],
+  "shake": "Shake at 8 minutes.",
+  "internalF": null,
+  "internalNote": "Done when caramelized at the edges and a fork slides through with light pressure.",
+  "crowd": "medium",
+  "prep": "Cut into uniform sticks or coins about 1/2-inch thick. Whole baby carrots work but stay firmer in the center.",
+  "tips": [
+   "Add honey or maple only in the last 4 minutes — sugar burns quickly at 380°F.",
+   "Uniform thickness matters more than shape. Mixed sizes give you burnt thin bits and raw thick ones.",
+   "Cumin, coriander and a pinch of chili work better with carrots than sweet glaze alone."
+  ],
+  "ingredients": [
+   "1 lb carrots, cut into 1/2-inch sticks",
+   "1 tbsp olive oil",
+   "3/4 tsp kosher salt",
+   "1/2 tsp cumin",
+   "1/4 tsp black pepper",
+   "1 tbsp honey",
+   "1 tbsp chopped parsley"
+  ],
+  "steps": [
+   "Peel and cut carrots into even sticks.",
+   "Toss with oil, salt, cumin and pepper.",
+   "Cook at 380°F for 8 minutes.",
+   "Shake and cook 4 more minutes.",
+   "Drizzle with honey and cook a final 4 minutes; garnish with parsley."
+  ],
+  "faq": [
+   {
+    "q": "Baby carrots vs cut carrots?",
+    "a": "Baby carrots need about 18 minutes and stay firmer because of their thickness. Cut sticks caramelize better thanks to the flat cut faces."
+   },
+   {
+    "q": "Frozen carrots?",
+    "a": "380°F for 20 minutes. They come out tender rather than caramelized because of surface moisture."
+   }
+  ]
+ },
+ {
+  "slug": "tofu",
+  "name": "Crispy Tofu",
+  "emoji": "🧊",
+  "category": "Vegetarian",
+  "keywords": [
+   "air fryer tofu",
+   "crispy tofu no oil",
+   "tofu time and temp"
+  ],
+  "blurb": "The air fryer solves tofu. No shallow-frying, no sticking to the pan, and every single cube gets a golden crust.",
+  "serving": "1 block extra-firm tofu (14 oz)",
+  "fresh": {
+   "f": 390,
+   "min": 15
+  },
+  "frozen": null,
+  "oven": {
+   "f": 425,
+   "min": 30
+  },
+  "shakeAt": [
+   8
+  ],
+  "shake": "Shake at 8 minutes to rotate the cubes.",
+  "internalF": null,
+  "internalNote": "Done when cubes are golden on multiple faces and firm-springy when pressed.",
+  "crowd": "medium",
+  "prep": "Press extra-firm tofu for at least 20 minutes under something heavy. Then toss cubes with cornstarch — this is what creates the crust.",
+  "tips": [
+   "Extra-firm only. Silken or soft tofu disintegrates in the basket.",
+   "One tablespoon of cornstarch per block is the difference between crispy and merely warm.",
+   "Sauce it after cooking. Marinating wet tofu before air frying prevents any crust from forming."
+  ],
+  "ingredients": [
+   "14 oz extra-firm tofu, pressed and cubed",
+   "1 tbsp cornstarch",
+   "1 tbsp soy sauce",
+   "1 tbsp neutral oil",
+   "1 tsp garlic powder",
+   "1/2 tsp black pepper",
+   "1 tsp sesame oil (finish)"
+  ],
+  "steps": [
+   "Press tofu 20 minutes, then cut into 1-inch cubes.",
+   "Toss cubes with soy sauce, then with oil.",
+   "Dust with cornstarch and garlic powder, tossing until evenly coated.",
+   "Cook at 390°F for 8 minutes in a single layer.",
+   "Shake and cook 7 more minutes until golden; finish with sesame oil."
+  ],
+  "faq": [
+   {
+    "q": "Do I have to press tofu?",
+    "a": "For crispy results, yes. Water in the block turns to steam and prevents any surface browning. Twenty minutes under a heavy pan is enough."
+   },
+   {
+    "q": "Can I use frozen tofu?",
+    "a": "Freeze and thaw it first — this creates a spongier, chewier texture that many people prefer. Press hard after thawing, then cook as usual."
+   }
+  ]
+ },
+ {
+  "slug": "falafel",
+  "name": "Falafel",
+  "emoji": "🧆",
+  "category": "Vegetarian",
+  "keywords": [
+   "air fryer falafel",
+   "frozen falafel air fryer",
+   "crispy falafel no oil"
+  ],
+  "blurb": "Deep-fried texture without a liter of oil. Air-fried falafel is drier inside than fried, so a generous oil spray matters.",
+  "serving": "12 falafel balls",
+  "fresh": {
+   "f": 375,
+   "min": 14
+  },
+  "frozen": {
+   "f": 375,
+   "min": 12
+  },
+  "oven": {
+   "f": 400,
+   "min": 22
+  },
+  "shakeAt": [
+   7
+  ],
+  "shake": "Shake at 7 minutes.",
+  "internalF": null,
+  "internalNote": "Done when deeply golden outside and steaming-hot through the center.",
+  "crowd": "medium",
+  "prep": "Use soaked dried chickpeas, never canned — canned chickpeas hold too much water and the mixture won't hold together.",
+  "tips": [
+   "Dried soaked chickpeas only. Canned falafel mix falls apart in the basket, every time.",
+   "Spray generously with oil on all sides; unoiled falafel comes out chalky.",
+   "Chill the shaped balls 30 minutes before cooking so they hold their shape."
+  ],
+  "ingredients": [
+   "1 cup dried chickpeas, soaked 12 hours",
+   "1/2 onion, chopped",
+   "3 cloves garlic",
+   "1/2 cup parsley",
+   "1/4 cup cilantro",
+   "1 tsp cumin",
+   "1 tsp coriander",
+   "1 tsp salt",
+   "2 tbsp flour",
+   "Oil spray"
+  ],
+  "steps": [
+   "Pulse soaked chickpeas with onion, garlic and herbs to a coarse crumb — not a puree.",
+   "Mix in spices, salt and flour; chill 30 minutes.",
+   "Form into 12 balls and flatten slightly.",
+   "Spray all sides generously with oil.",
+   "Cook at 375°F for 7 minutes, shake, then 7 more minutes until deep golden."
+  ],
+  "faq": [
+   {
+    "q": "Why did my falafel fall apart?",
+    "a": "Canned chickpeas, or the mixture was over-processed into a paste. Use soaked dried chickpeas and pulse only to a coarse crumb."
+   },
+   {
+    "q": "Frozen falafel timing?",
+    "a": "375°F for about 12 minutes, shaking once. No thawing and no oil needed — they're pre-fried."
+   }
+  ]
+ },
+ {
+  "slug": "halloumi",
+  "name": "Halloumi",
+  "emoji": "🧀",
+  "category": "Vegetarian",
+  "keywords": [
+   "air fryer halloumi",
+   "halloumi fries air fryer",
+   "grilled halloumi"
+  ],
+  "blurb": "A cheese that holds its shape under heat. Eight minutes gives you a golden crust and a squeaky, molten center.",
+  "serving": "1 block (8-9 oz)",
+  "fresh": {
+   "f": 380,
+   "min": 8
+  },
+  "frozen": null,
+  "oven": {
+   "f": 425,
+   "min": 14
+  },
+  "shakeAt": [
+   4
+  ],
+  "shake": "Flip pieces at 4 minutes with tongs.",
+  "internalF": null,
+  "internalNote": "Done when golden-brown on the cut faces and soft when pressed.",
+  "crowd": "low",
+  "prep": "Pat very dry and cut into 1/2-inch slabs or thick fries. Wet halloumi steams and stays pale.",
+  "tips": [
+   "Halloumi is already salty — don't add salt, only pepper or herbs.",
+   "Serve immediately. It firms into rubber within about five minutes of cooling.",
+   "A light dust of cornstarch makes halloumi fries genuinely crunchy."
+  ],
+  "ingredients": [
+   "1 block halloumi (8-9 oz), cut into fries",
+   "1 tsp olive oil",
+   "1 tsp cornstarch",
+   "1/2 tsp dried oregano",
+   "Black pepper",
+   "Honey and lemon, to serve"
+  ],
+  "steps": [
+   "Pat halloumi very dry and cut into thick fries.",
+   "Toss lightly with oil, cornstarch and oregano.",
+   "Arrange in a single layer with gaps.",
+   "Cook at 380°F for 4 minutes, flip, then 4 more.",
+   "Serve immediately with honey and lemon."
+  ],
+  "faq": [
+   {
+    "q": "Will halloumi melt in the air fryer?",
+    "a": "No. Halloumi has a high melting point and holds its shape — that's what makes it work here where mozzarella would collapse."
+   },
+   {
+    "q": "Can I cook it from frozen?",
+    "a": "Thaw first. Frozen halloumi releases water as it thaws in the basket and steams instead of browning."
+   }
+  ]
+ },
+ {
+  "slug": "chickpeas",
+  "name": "Crispy Chickpeas",
+  "emoji": "🫘",
+  "category": "Vegetarian",
+  "keywords": [
+   "air fryer chickpeas",
+   "crispy chickpeas snack",
+   "roasted chickpeas time"
+  ],
+  "blurb": "A genuinely crunchy high-protein snack for pennies. The trick is drying them properly and accepting they crisp fully only as they cool.",
+  "serving": "2 cans (15 oz each), drained",
+  "fresh": {
+   "f": 390,
+   "min": 15
+  },
+  "frozen": null,
+  "oven": {
+   "f": 425,
+   "min": 30
+  },
+  "shakeAt": [
+   7
+  ],
+  "shake": "Shake at 7 minutes, and again at 12 if you're doing a full basket.",
+  "internalF": null,
+  "internalNote": "Done when they rattle in the basket and a test chickpea crunches rather than yields.",
+  "crowd": "medium",
+  "prep": "Drain, rinse, then dry hard between towels. Rub off any loose skins — they burn before the chickpea crisps.",
+  "tips": [
+   "They finish crisping as they cool. Don't judge them straight out of the basket.",
+   "Season after cooking for maximum crunch; spices added early absorb moisture and go soft.",
+   "Store in an open bowl, never a sealed container — trapped steam turns them chewy overnight."
+  ],
+  "ingredients": [
+   "2 cans chickpeas (15 oz each), drained and dried",
+   "1 tbsp olive oil",
+   "1 tsp smoked paprika",
+   "1 tsp cumin",
+   "3/4 tsp kosher salt",
+   "1/4 tsp cayenne"
+  ],
+  "steps": [
+   "Drain, rinse and dry chickpeas thoroughly; remove loose skins.",
+   "Toss with oil only.",
+   "Cook at 390°F for 7 minutes.",
+   "Shake and cook 8 more minutes until rattly and hard.",
+   "Toss with the spice blend immediately, then cool 10 minutes to finish crisping."
+  ],
+  "faq": [
+   {
+    "q": "Why are mine chewy, not crunchy?",
+    "a": "Not dry enough before cooking, or stored airtight afterward. Dry them hard and leave them uncovered after cooking."
+   },
+   {
+    "q": "How long do they keep?",
+    "a": "They're best within a few hours. After a day they soften noticeably — a 3-minute re-crisp at 390°F brings them back."
+   }
+  ]
+ },
+ {
+  "slug": "cookies",
+  "name": "Cookies",
+  "emoji": "🍪",
+  "category": "Baked Goods",
+  "keywords": [
+   "air fryer cookies",
+   "chocolate chip cookies air fryer",
+   "cookie time air fryer"
+  ],
+  "blurb": "Six cookies in eight minutes with no oven preheat. Air fryer cookies spread less and stay chewier in the middle than oven-baked.",
+  "serving": "6 cookies",
+  "fresh": {
+   "f": 320,
+   "min": 8
+  },
+  "frozen": {
+   "f": 320,
+   "min": 11
+  },
+  "oven": {
+   "f": 350,
+   "min": 12
+  },
+  "shakeAt": [],
+  "shake": "No shake or flip. Rotate the parchment 180° at 5 minutes if your model browns unevenly.",
+  "internalF": null,
+  "internalNote": "Pull when edges are set and centers still look slightly underdone — they firm up on the rack.",
+  "crowd": "low",
+  "prep": "Cut parchment to size and place cookies with 2 inches between them. Let the parchment be weighed down by the dough before the fan starts, or it will fly into the element.",
+  "tips": [
+   "320°F, much lower than oven temperature. The fan is aggressive and 350°F burns cookie tops before centers set.",
+   "Never put empty parchment in a preheating air fryer — it can lift into the heating element. Always weigh it down with dough.",
+   "Underbake slightly. Residual heat finishes them and you get a chewy center."
+  ],
+  "ingredients": [
+   "1/2 cup butter, softened",
+   "1/2 cup brown sugar",
+   "1/4 cup white sugar",
+   "1 egg",
+   "1 tsp vanilla",
+   "1.25 cups flour",
+   "1/2 tsp baking soda",
+   "1/2 tsp salt",
+   "3/4 cup chocolate chips"
+  ],
+  "steps": [
+   "Cream butter and sugars, then beat in egg and vanilla.",
+   "Fold in flour, baking soda, salt and chocolate chips.",
+   "Place 6 dough balls on parchment cut to fit the basket, 2 inches apart.",
+   "Cook at 320°F for 8 minutes until edges are set.",
+   "Cool on the parchment 5 minutes before moving — they're fragile when hot."
+  ],
+  "faq": [
+   {
+    "q": "Can I bake frozen cookie dough?",
+    "a": "Yes. 320°F for about 11 minutes straight from frozen. Frozen dough actually spreads less, which many people prefer."
+   },
+   {
+    "q": "Why did my cookies burn on top?",
+    "a": "Temperature too high or the rack sits too close to the element. Drop to 310°F and check at 6 minutes."
+   }
+  ]
+ },
+ {
+  "slug": "donuts",
+  "name": "Donuts",
+  "emoji": "🍩",
+  "category": "Baked Goods",
+  "keywords": [
+   "air fryer donuts",
+   "canned biscuit donuts air fryer",
+   "easy donuts no fry"
+  ],
+  "blurb": "Canned biscuit dough turns into passable donuts in five minutes. They're more like fried biscuits than yeast donuts, and they're excellent.",
+  "serving": "8 donuts from 1 can biscuit dough",
+  "fresh": {
+   "f": 350,
+   "min": 6
+  },
+  "frozen": {
+   "f": 350,
+   "min": 9
+  },
+  "oven": {
+   "f": 375,
+   "min": 12
+  },
+  "shakeAt": [
+   3
+  ],
+  "shake": "Flip at 3 minutes with tongs.",
+  "internalF": null,
+  "internalNote": "Done when golden on both sides and no raw dough remains — split one to check the first time.",
+  "crowd": "low",
+  "prep": "Separate the biscuits and cut a 1-inch hole from the center of each with a bottle cap or small cutter. Cook the holes too.",
+  "tips": [
+   "Brush with melted butter the moment they come out so cinnamon sugar sticks.",
+   "Don't skip cutting the center hole — solid rounds stay doughy in the middle.",
+   "Glaze only after they've cooled 5 minutes, or it slides straight off."
+  ],
+  "ingredients": [
+   "1 can refrigerated biscuit dough (8 count)",
+   "3 tbsp melted butter",
+   "1/2 cup granulated sugar",
+   "1 tbsp cinnamon",
+   "Oil spray"
+  ],
+  "steps": [
+   "Separate biscuits and cut a 1-inch hole in each center.",
+   "Spray the basket and both sides of the dough lightly with oil.",
+   "Cook at 350°F for 3 minutes, flip, then 3 more minutes.",
+   "Brush hot donuts with melted butter.",
+   "Toss in combined cinnamon sugar and serve warm."
+  ],
+  "faq": [
+   {
+    "q": "Can I make yeast donuts?",
+    "a": "Yes, but they need a full proof and come out drier than fried. Cook at 350°F for 6 minutes and brush generously with butter."
+   },
+   {
+    "q": "Frozen donuts?",
+    "a": "350°F for about 9 minutes from frozen, flipping halfway."
+   }
+  ]
+ },
+ {
+  "slug": "reheating-pizza",
+  "name": "Reheating Leftover Pizza",
+  "emoji": "🍕",
+  "category": "Reheating",
+  "keywords": [
+   "reheat pizza air fryer",
+   "leftover pizza air fryer time",
+   "crispy reheated pizza"
+  ],
+  "blurb": "The single best use of an air fryer that nobody mentions in the manual. Three minutes restores a crisp base a microwave can never produce.",
+  "serving": "2-3 slices",
+  "fresh": {
+   "f": 350,
+   "min": 4
+  },
+  "frozen": {
+   "f": 350,
+   "min": 6
+  },
+  "oven": {
+   "f": 375,
+   "min": 10
+  },
+  "shakeAt": [],
+  "shake": "No flip needed.",
+  "internalF": 165,
+  "internalNote": "Reheat leftovers to 165°F throughout, per USDA guidance for previously cooked food.",
+  "crowd": "low",
+  "prep": "None. Straight from the fridge into the basket.",
+  "tips": [
+   "350°F, not higher. Hot air hits the cheese first and 400°F browns the toppings before the base warms.",
+   "Lay slices flat, not overlapping. Overlap creates a soggy seam.",
+   "A tiny sprinkle of water on the crust before reheating steams it soft, then the air crisps it — bakery trick."
+  ],
+  "ingredients": [
+   "2-3 leftover pizza slices"
+  ],
+  "steps": [
+   "Place slices flat in the basket without overlapping.",
+   "Cook at 350°F for 3 minutes.",
+   "Check the cheese; add 1 more minute if needed.",
+   "Serve immediately."
+  ],
+  "faq": [
+   {
+    "q": "Can I stack slices?",
+    "a": "No. Stacking traps steam and you get a soft, floppy crust — exactly what you were trying to avoid."
+   },
+   {
+    "q": "Frozen leftover pizza?",
+    "a": "350°F for about 6 minutes straight from frozen. There's no need to thaw."
+   }
+  ]
+ },
+ {
+  "slug": "reheating-fries",
+  "name": "Reheating Leftover Fries",
+  "emoji": "🍟",
+  "category": "Reheating",
+  "keywords": [
+   "reheat fries air fryer",
+   "leftover fries crispy again",
+   "how to reheat french fries"
+  ],
+  "blurb": "Day-old fries genuinely come back to life. Three minutes at high heat drives off the moisture that made them limp.",
+  "serving": "1 portion leftover fries",
+  "fresh": {
+   "f": 400,
+   "min": 3
+  },
+  "frozen": {
+   "f": 400,
+   "min": 6
+  },
+  "oven": {
+   "f": 425,
+   "min": 8
+  },
+  "shakeAt": [
+   2
+  ],
+  "shake": "Shake at 2 minutes — with a 3-minute cook, that one shake does most of the work.",
+  "internalF": 165,
+  "internalNote": "Heat leftovers through to 165°F. For fries this happens well before they re-crisp.",
+  "crowd": "low",
+  "prep": "Spread them out. Cold fries clump in the container and clumped fries reheat unevenly.",
+  "tips": [
+   "High heat, short time. 400°F for 3 minutes; longer just dries them into sticks.",
+   "A very light oil spray helps if they were originally baked rather than fried.",
+   "Never microwave first. Once fries go soft from steam, no amount of air frying fully rescues them."
+  ],
+  "ingredients": [
+   "1 portion leftover French fries"
+  ],
+  "steps": [
+   "Break up any clumps and spread fries in a loose layer.",
+   "Cook at 400°F for 2 minutes.",
+   "Shake the basket.",
+   "Cook 1 more minute until hot and crisp; salt lightly and serve."
+  ],
+  "faq": [
+   {
+    "q": "Do I need oil?",
+    "a": "Usually not — restaurant fries carry enough residual fat. A light spray helps home-baked fries that started out low-fat."
+   },
+   {
+    "q": "How old is too old?",
+    "a": "Two to three days refrigerated is fine. Beyond that the potato texture degrades in ways reheating can't fix."
+   }
+  ]
+ },
+ {
+  "slug": "hard-boiled-eggs",
+  "name": "Hard \"Boiled\" Eggs",
+  "emoji": "🥚",
+  "category": "Breakfast",
+  "keywords": [
+   "air fryer hard boiled eggs",
+   "air fryer eggs time",
+   "easy peel eggs"
+  ],
+  "blurb": "No water, no pot, no watching for a boil. And they peel more easily than pot-boiled eggs, which is the real selling point.",
+  "serving": "6 eggs",
+  "fresh": {
+   "f": 270,
+   "min": 15
+  },
+  "frozen": null,
+  "oven": {
+   "f": 325,
+   "min": 30
+  },
+  "shakeAt": [],
+  "shake": "No shake. Eggs crack if they roll into each other.",
+  "internalF": null,
+  "internalNote": "15 minutes at 270°F gives a fully set yolk. 11 minutes gives a jammy center; 13 gives a soft-set yolk.",
+  "crowd": "low",
+  "prep": "Nothing. Place eggs straight from the fridge into the basket.",
+  "tips": [
+   "Ice bath immediately after cooking. It stops the cooking and makes the shell release cleanly.",
+   "Every air fryer differs by a minute or two — test one egg first and note your model's timing.",
+   "Brown spots on the shell are harmless contact marks from the basket, not burns."
+  ],
+  "ingredients": [
+   "6 large eggs",
+   "Ice water for the bath"
+  ],
+  "steps": [
+   "Place eggs directly in the basket in a single layer, not touching.",
+   "Cook at 270°F for 15 minutes.",
+   "Transfer immediately to an ice water bath for 5 minutes.",
+   "Peel under running water for the cleanest release."
+  ],
+  "faq": [
+   {
+    "q": "Do the eggs explode?",
+    "a": "No, as long as you stay at 270°F or below and use a proper ice bath afterward. Higher temperatures can crack shells."
+   },
+   {
+    "q": "How do I get soft-boiled?",
+    "a": "11 minutes at 270°F gives a runny-jammy yolk; 13 minutes gives a soft-set center. Ice bath immediately either way."
+   }
+  ]
+ },
+ {
+  "slug": "toast",
+  "name": "Toast & Garlic Bread",
+  "emoji": "🍞",
+  "category": "Breakfast",
+  "keywords": [
+   "air fryer toast",
+   "garlic bread air fryer",
+   "frozen garlic bread time"
+  ],
+  "blurb": "When you need four slices at once and your toaster only holds two. Also the best method for frozen garlic bread by a wide margin.",
+  "serving": "4 slices",
+  "fresh": {
+   "f": 370,
+   "min": 4
+  },
+  "frozen": {
+   "f": 370,
+   "min": 6
+  },
+  "oven": {
+   "f": 400,
+   "min": 8
+  },
+  "shakeAt": [
+   2
+  ],
+  "shake": "Flip at 2 minutes for even browning on both faces.",
+  "internalF": null,
+  "internalNote": "Done at your preferred shade of golden. Check at 3 minutes the first time — bread goes from pale to burnt fast.",
+  "crowd": "low",
+  "prep": "None for plain toast. For garlic bread, spread butter mixture edge to edge so the corners don't scorch.",
+  "tips": [
+   "Light bread can lift into the heating element from the fan. Weigh slices down with a rack or a heavier topping.",
+   "Check at 3 minutes. Bread browns unpredictably between models.",
+   "For garlic bread, add cheese only in the last 2 minutes so it melts without burning."
+  ],
+  "ingredients": [
+   "4 slices bread",
+   "2 tbsp softened butter",
+   "2 cloves garlic, minced",
+   "1 tbsp chopped parsley",
+   "1/4 cup shredded mozzarella (optional)"
+  ],
+  "steps": [
+   "Arrange bread in a single layer.",
+   "For garlic bread, spread the butter-garlic mixture edge to edge first.",
+   "Cook at 370°F for 2 minutes.",
+   "Flip plain toast, or add cheese to garlic bread.",
+   "Cook 2 more minutes until golden."
+  ],
+  "faq": [
+   {
+    "q": "Why did my bread fly around?",
+    "a": "The fan lifts light slices. Place a metal rack on top, or butter the bread to weigh it down."
+   },
+   {
+    "q": "Frozen garlic bread?",
+    "a": "370°F for about 6 minutes straight from frozen — no thawing. It beats the oven both on time and on crust."
+   }
+  ]
+ },
+ {
+  "slug": "frozen-egg-rolls",
+  "name": "Frozen Egg Rolls",
+  "emoji": "🥟",
+  "category": "Frozen Favorites",
+  "keywords": [
+   "air fryer egg rolls",
+   "frozen egg rolls time",
+   "crispy spring rolls"
+  ],
+  "blurb": "Blistered, bubbly wrappers that taste deep-fried. Frozen egg rolls are one of the highest-return items in the freezer aisle for air fryer owners.",
+  "serving": "6 egg rolls",
+  "fresh": {
+   "f": 390,
+   "min": 10
+  },
+  "frozen": {
+   "f": 390,
+   "min": 12
+  },
+  "oven": {
+   "f": 425,
+   "min": 20
+  },
+  "shakeAt": [
+   6
+  ],
+  "shake": "Roll each one a half-turn at 6 minutes using tongs.",
+  "internalF": 165,
+  "internalNote": "Frozen egg rolls are pre-cooked; reheat to 165°F throughout. Check that the filling center is steaming, not cold.",
+  "crowd": "medium",
+  "prep": "No thawing. A light oil spray gives a more even blistered finish on the wrapper.",
+  "tips": [
+   "Space them so no two wrappers touch — contact points stay pale and soft.",
+   "Spray lightly with oil for the bubbly, deep-fried look.",
+   "Mini egg rolls need only 8 minutes; check them early."
+  ],
+  "ingredients": [
+   "6 frozen egg rolls",
+   "Oil spray",
+   "Sweet chili or duck sauce"
+  ],
+  "steps": [
+   "Arrange frozen egg rolls in a single layer with gaps between.",
+   "Spray lightly with oil.",
+   "Cook at 390°F for 6 minutes.",
+   "Turn each roll a half-turn and cook 6 more minutes.",
+   "Rest 2 minutes — the filling is extremely hot."
+  ],
+  "faq": [
+   {
+    "q": "Do I thaw egg rolls first?",
+    "a": "Never. Thawed wrappers go soggy and can split open in the basket, spilling filling."
+   },
+   {
+    "q": "Fresh homemade egg rolls?",
+    "a": "390°F for 10 minutes, turning halfway. Brush the wrappers with oil or they stay dry and papery."
+   }
+  ]
+ },
+ {
+  "slug": "frozen-dumplings",
+  "name": "Frozen Dumplings & Potstickers",
+  "emoji": "🥟",
+  "category": "Frozen Favorites",
+  "keywords": [
+   "air fryer dumplings",
+   "frozen potstickers air fryer",
+   "gyoza air fryer time"
+  ],
+  "blurb": "Crisp bottoms without the pan-fry-then-steam dance. You lose a bit of the pillowy top, but you gain a whole-surface crunch.",
+  "serving": "12 frozen dumplings",
+  "fresh": {
+   "f": 380,
+   "min": 10
+  },
+  "frozen": {
+   "f": 380,
+   "min": 12
+  },
+  "oven": {
+   "f": 400,
+   "min": 18
+  },
+  "shakeAt": [
+   6
+  ],
+  "shake": "Shake gently at 6 minutes — dumpling skins tear if you're rough.",
+  "internalF": 165,
+  "internalNote": "165°F. Filling with raw pork or chicken must reach this temperature; cut one open to confirm on your first batch.",
+  "crowd": "medium",
+  "prep": "Spray both the basket and the dumplings with oil. Dumpling skins stick to bare metal more than almost any other food.",
+  "tips": [
+   "Oil the basket, not just the food. Skins weld to dry metal and tear when you lift them.",
+   "For a softer top, brush the dumplings with water at the halfway shake.",
+   "Don't overlap. Touching dumplings fuse into one mass."
+  ],
+  "ingredients": [
+   "12 frozen dumplings or potstickers",
+   "Oil spray",
+   "Soy-vinegar dipping sauce"
+  ],
+  "steps": [
+   "Spray the basket with oil, then arrange dumplings without touching.",
+   "Spray the tops lightly with oil.",
+   "Cook at 380°F for 6 minutes.",
+   "Shake gently, brush with a little water if you want softer skins.",
+   "Cook 6 more minutes until bottoms are golden and crisp."
+  ],
+  "faq": [
+   {
+    "q": "Can I cook soup dumplings this way?",
+    "a": "No. Xiao long bao need gentle steam; hot dry air ruptures the skin and you lose the soup entirely."
+   },
+   {
+    "q": "Why do mine stick?",
+    "a": "Dry basket. Always spray the basket surface itself, or use perforated parchment."
+   }
+  ]
+ },
+ {
+  "slug": "frozen-burritos",
+  "name": "Frozen Burritos",
+  "emoji": "🌯",
+  "category": "Frozen Favorites",
+  "keywords": [
+   "air fryer frozen burrito",
+   "burrito air fryer time",
+   "crispy burrito"
+  ],
+  "blurb": "A microwave gives you a soggy tube with a lava core and a frozen center. The air fryer gives you a crisp tortilla and even heat.",
+  "serving": "2 frozen burritos",
+  "fresh": {
+   "f": 380,
+   "min": 12
+  },
+  "frozen": {
+   "f": 350,
+   "min": 18
+  },
+  "oven": {
+   "f": 400,
+   "min": 28
+  },
+  "shakeAt": [
+   9
+  ],
+  "shake": "Turn each burrito over at 9 minutes.",
+  "internalF": 165,
+  "internalNote": "165°F at the center. This is the food people most often serve still frozen inside — check the middle with a thermometer or a knife.",
+  "crowd": "low",
+  "prep": "Remove all plastic wrapping. Leave the burrito whole and unwrapped.",
+  "tips": [
+   "350°F, not 400°F. A burrito is dense; high heat scorches the tortilla long before the center thaws.",
+   "If the tortilla browns too fast, wrap loosely in foil for the first 10 minutes then unwrap to crisp.",
+   "Let it rest 3 minutes after cooking — the filling heat equalizes and stops it burning your mouth."
+  ],
+  "ingredients": [
+   "2 frozen burritos",
+   "Oil spray (optional)",
+   "Salsa and sour cream, to serve"
+  ],
+  "steps": [
+   "Unwrap burritos completely and place seam-side down.",
+   "Cook at 350°F for 9 minutes.",
+   "Turn each burrito over.",
+   "Cook 9 more minutes until the tortilla is crisp and the center reads 165°F.",
+   "Rest 3 minutes before eating."
+  ],
+  "faq": [
+   {
+    "q": "Why is the middle still cold?",
+    "a": "Temperature too high, time too short. Drop to 350°F and give it the full 18 minutes — dense frozen food needs time, not heat."
+   },
+   {
+    "q": "Can I air fry a fresh burrito?",
+    "a": "Yes. 380°F for 12 minutes, seam-side down first, gives you a crisp restaurant-style shell."
+   }
+  ]
+ },
+ {
+  "slug": "apple-chips",
+  "name": "Apple Chips",
+  "emoji": "🍎",
+  "category": "Snacks",
+  "keywords": [
+   "air fryer apple chips",
+   "dehydrated apples air fryer",
+   "healthy apple snack"
+  ],
+  "blurb": "Low and slow, closer to dehydrating than frying. Twenty-five minutes gives you crisp, naturally sweet chips with zero added sugar.",
+  "serving": "2 apples",
+  "fresh": {
+   "f": 300,
+   "min": 25
+  },
+  "frozen": null,
+  "oven": {
+   "f": 225,
+   "min": 120
+  },
+  "shakeAt": [
+   12
+  ],
+  "shake": "Flip the slices at 12 minutes — they curl and stick otherwise.",
+  "internalF": null,
+  "internalNote": "Done when slices are dry to the touch and lightly leathery; they crisp fully as they cool.",
+  "crowd": "low",
+  "prep": "Slice as thinly and evenly as possible — a mandoline at 1/8 inch is ideal. Thick slices stay chewy.",
+  "tips": [
+   "Thin and even is everything. Uneven slices give you burnt edges and damp centers in the same batch.",
+   "They crisp as they cool, so don't extend the time based on how they feel hot.",
+   "A pinch of cinnamon before cooking, not sugar — sugar burns at this length of cook."
+  ],
+  "ingredients": [
+   "2 firm apples (Honeycrisp or Granny Smith)",
+   "1 tsp cinnamon",
+   "1 tbsp lemon juice"
+  ],
+  "steps": [
+   "Core apples and slice into 1/8-inch rounds.",
+   "Toss with lemon juice to prevent browning, then pat dry.",
+   "Dust with cinnamon.",
+   "Arrange in a single layer — overlap is unavoidable in small baskets, so plan two batches.",
+   "Cook at 300°F for 12 minutes, flip, then 13 more minutes.",
+   "Cool completely on a rack to finish crisping."
+  ],
+  "faq": [
+   {
+    "q": "Why are mine chewy?",
+    "a": "Sliced too thick or not cooled properly. Aim for 1/8 inch and let them cool fully on a rack before judging."
+   },
+   {
+    "q": "Can I use a lower temperature?",
+    "a": "Yes — 250°F for 45 minutes gives more evenly dehydrated chips if your model goes that low."
+   }
+  ]
+ },
+ {
+  "slug": "kale-chips",
+  "name": "Kale Chips",
+  "emoji": "🥬",
+  "category": "Snacks",
+  "keywords": [
+   "air fryer kale chips",
+   "crispy kale air fryer",
+   "healthy chips"
+  ],
+  "blurb": "Five minutes and the lightest crisp in the kitchen. The whole challenge is stopping the leaves from flying into the heating element.",
+  "serving": "1 bunch kale",
+  "fresh": {
+   "f": 320,
+   "min": 5
+  },
+  "frozen": null,
+  "oven": {
+   "f": 300,
+   "min": 15
+  },
+  "shakeAt": [
+   3
+  ],
+  "shake": "Shake at 3 minutes, briefly — the leaves are fragile once dry.",
+  "internalF": null,
+  "internalNote": "Done when leaves are dry, crackly and still deep green. Brown means burnt and bitter.",
+  "crowd": "low",
+  "prep": "Strip leaves from the tough stems, wash, and dry completely in a salad spinner. Wet kale steams into slime.",
+  "tips": [
+   "Place a metal rack over the kale to stop the fan launching leaves into the element — this is a real fire-safety point.",
+   "320°F maximum. Kale burns and turns bitter above that in under a minute.",
+   "Massage the oil into the leaves by hand so every surface is coated with a very thin film."
+  ],
+  "ingredients": [
+   "1 bunch kale, stems removed",
+   "2 tsp olive oil",
+   "1/2 tsp kosher salt",
+   "1 tbsp nutritional yeast (optional)"
+  ],
+  "steps": [
+   "Strip and tear kale into palm-size pieces; wash and dry completely.",
+   "Massage oil into the leaves until barely glossy.",
+   "Add to the basket and place a metal rack on top to hold them down.",
+   "Cook at 320°F for 3 minutes, shake, then 2 more minutes.",
+   "Season with salt and nutritional yeast once out of the basket."
+  ],
+  "faq": [
+   {
+    "q": "My kale flew into the heating element — is that dangerous?",
+    "a": "It can smoke or scorch. Always weigh the leaves down with a rack or trivet; this is the most common air fryer safety complaint with leafy greens."
+   },
+   {
+    "q": "Why is my kale bitter?",
+    "a": "Overcooked. Kale goes from crisp to burnt in about 45 seconds. Drop to 300°F and check every minute near the end."
+   }
+  ]
+ },
+ {
+  "slug": "frozen-fish-sticks",
+  "name": "Frozen Fish Sticks",
+  "emoji": "🐟",
+  "category": "Frozen Favorites",
+  "keywords": [
+   "air fryer fish sticks",
+   "frozen fish fingers time",
+   "kids dinner air fryer"
+  ],
+  "blurb": "Ten minutes, no flipping stress, and a crunch the oven can't match. A weeknight staple with essentially zero failure rate.",
+  "serving": "12 fish sticks",
+  "fresh": {
+   "f": 400,
+   "min": 9
+  },
+  "frozen": {
+   "f": 400,
+   "min": 10
+  },
+  "oven": {
+   "f": 425,
+   "min": 18
+  },
+  "shakeAt": [
+   5
+  ],
+  "shake": "Shake at 5 minutes.",
+  "internalF": 165,
+  "internalNote": "165°F. Fish sticks are pre-cooked but must be reheated fully; the center should be steaming hot.",
+  "crowd": "low",
+  "prep": "None. Straight from the freezer, no oil needed.",
+  "tips": [
+   "No oil and no thawing — the coating is already par-fried.",
+   "A single layer browns best, but two layers work if you shake twice.",
+   "Add 2 minutes for the thicker battered fillet style versus thin fish fingers."
+  ],
+  "ingredients": [
+   "12 frozen fish sticks",
+   "Tartar sauce and lemon, to serve"
+  ],
+  "steps": [
+   "Arrange fish sticks in the basket, roughly level.",
+   "Cook at 400°F for 5 minutes.",
+   "Shake the basket.",
+   "Cook 5 more minutes until golden and crisp.",
+   "Serve with tartar sauce and lemon."
+  ],
+  "faq": [
+   {
+    "q": "Do I need to preheat?",
+    "a": "Not required, though 3 minutes of preheat gives a crisper coating. Add a minute if you skip it."
+   },
+   {
+    "q": "Can I stack them?",
+    "a": "Two layers is fine with two shakes. Three layers steams the middle."
+   }
+  ]
+ },
+ {
+  "slug": "frozen-mozzarella-bites",
+  "name": "Jalapeño Poppers",
+  "emoji": "🌶️",
+  "category": "Frozen Favorites",
+  "keywords": [
+   "air fryer jalapeno poppers",
+   "frozen poppers time",
+   "cream cheese poppers"
+  ],
+  "blurb": "Golden coating, molten center, no deep fryer. The main risk is cheese leaking out — which lower heat and a watchful timer prevent.",
+  "serving": "10 poppers",
+  "fresh": {
+   "f": 370,
+   "min": 12
+  },
+  "frozen": {
+   "f": 375,
+   "min": 9
+  },
+  "oven": {
+   "f": 400,
+   "min": 16
+  },
+  "shakeAt": [
+   5
+  ],
+  "shake": "Turn each popper with tongs at 5 minutes rather than shaking.",
+  "internalF": 165,
+  "internalNote": "165°F for poppers containing bacon or meat. For plain cheese poppers, golden coating and molten filling is the cue.",
+  "crowd": "low",
+  "prep": "For homemade: halve jalapeños, remove seeds and membrane, fill with cream cheese, then bread. Chill the breaded poppers 30 minutes so the coating sets.",
+  "tips": [
+   "Place them filling-side up so the cheese has less chance to escape.",
+   "375°F maximum for frozen — hotter and the cheese blows out before the breading colors.",
+   "Wear gloves when seeding jalapeños, and don't touch your eyes afterward."
+  ],
+  "ingredients": [
+   "10 frozen jalapeño poppers, or 5 fresh jalapeños",
+   "4 oz cream cheese (homemade)",
+   "1/2 cup panko (homemade)",
+   "1 egg, beaten (homemade)",
+   "Oil spray"
+  ],
+  "steps": [
+   "Arrange poppers filling-side up in a single layer with gaps.",
+   "Spray lightly with oil.",
+   "Cook at 375°F for 5 minutes.",
+   "Turn each popper carefully with tongs.",
+   "Cook 4 more minutes until golden; rest 2 minutes before eating."
+  ],
+  "faq": [
+   {
+    "q": "Why did the cheese leak out?",
+    "a": "Too hot or too long. Drop to 370°F, cut a minute, and keep them filling-side up throughout."
+   },
+   {
+    "q": "Homemade popper timing?",
+    "a": "370°F for 12 minutes. Chill the breaded poppers 30 minutes first so the coating firms up and seals the filling."
+   }
+  ]
+ },
+ {
+  "slug": "frozen-hash-browns",
+  "name": "Frozen Hash Browns",
+  "emoji": "🥔",
+  "category": "Breakfast",
+  "keywords": [
+   "air fryer hash browns",
+   "frozen hash brown patties",
+   "breakfast potatoes air fryer"
+  ],
+  "blurb": "Crisper than a skillet and no flipping half a pound of shredded potato with a spatula. Patties in particular come out perfect every time.",
+  "serving": "4 hash brown patties or 1 lb shredded",
+  "fresh": {
+   "f": 400,
+   "min": 14
+  },
+  "frozen": {
+   "f": 400,
+   "min": 12
+  },
+  "oven": {
+   "f": 425,
+   "min": 22
+  },
+  "shakeAt": [
+   6
+  ],
+  "shake": "Flip patties at 6 minutes; shake shredded hash browns instead.",
+  "internalF": null,
+  "internalNote": "Done when deep golden and rigid. Shredded hash browns should have crisp edges and no pale damp clumps.",
+  "crowd": "medium",
+  "prep": "No thawing. For shredded, break up any frozen clumps before they go in so they cook evenly.",
+  "tips": [
+   "Patties need no oil at all; shredded benefits from a light spray to help the strands separate and brown.",
+   "Single layer for patties — stacked ones steam and stay pale in the middle.",
+   "Add 2 minutes for genuinely crunchy edges rather than merely cooked."
+  ],
+  "ingredients": [
+   "4 frozen hash brown patties, or 1 lb frozen shredded hash browns",
+   "Oil spray (shredded only)",
+   "Salt and pepper"
+  ],
+  "steps": [
+   "Place patties in a single layer, or spread shredded hash browns in a loose 1-inch layer.",
+   "Cook at 400°F for 6 minutes.",
+   "Flip patties or shake shredded potatoes thoroughly.",
+   "Cook 6 more minutes until deep golden.",
+   "Season and serve immediately."
+  ],
+  "faq": [
+   {
+    "q": "Why are shredded hash browns pale in the middle?",
+    "a": "The layer was too deep or you didn't shake. Keep it under an inch and shake at least once — twice is better."
+   },
+   {
+    "q": "Can I make them from fresh potato?",
+    "a": "Yes. Shred, rinse off the starch, and squeeze bone-dry in a towel. Then 400°F for 14 minutes with a light oil spray, shaking twice."
+   }
+  ]
+ }
+]
