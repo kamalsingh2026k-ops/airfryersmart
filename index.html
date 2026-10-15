@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Air Fryer Conversion Calculator — Oven to Air Fryer Time &amp; Temp | AirFryerSmart</title>
+<meta name="description" content="Convert any oven recipe to air fryer time and temperature instantly. Calibrated for Ninja, Cosori, Philips and Instant Vortex, with frozen-food and batch-size adjustments, 51 tested foods and USDA safe temperatures.">
+<link rel="canonical" href="https://airfryersmart.pages.dev/">
+<meta name="theme-color" content="#ea580c">
+<meta name="robots" content="index,follow,max-image-preview:large">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AirFryerSmart">
+<meta property="og:title" content="Air Fryer Conversion Calculator — Oven to Air Fryer Time &amp; Temp">
+<meta property="og:description" content="Convert any oven recipe to air fryer settings. Brand calibration, frozen and batch adjustments, 51 tested foods, and a built-in kitchen timer.">
+<meta property="og:url" content="https://airfryersmart.pages.dev/">
+<meta property="og:image" content="https://airfryersmart.pages.dev/assets/img/og-default.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Air Fryer Conversion Calculator — Oven to Air Fryer">
+<meta name="twitter:description" content="Instantly convert oven recipes to air fryer time and temperature. Free, no signup.">
+<meta name="twitter:image" content="https://airfryersmart.pages.dev/assets/img/og-default.png">
+
+<!-- Google Search Console verification: replace the token in assets/js/config.js, then re-run node tools/build.js -->
+<meta name="google-site-verification" content="REPLACE_WITH_SEARCH_CONSOLE_TOKEN">
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="assets/img/icon-192.png">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+<!-- Set the theme before first paint so there is no white flash in dark mode -->
+<script>
+(function(){try{var t=localStorage.getItem('afs.theme');
+var d=t?t==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches;
+if(d)document.documentElement.classList.add('dark');}catch(e){}})();
+</script>
+
+<!-- Google Consent Mode v2 defaults: everything denied until the visitor opts in -->
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',
+ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
+</script>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={darkMode:'class'}</script>
+<link rel="stylesheet" href="assets/css/site.css">
+
+<!-- Structured data: the tool itself -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"WebApplication",
+      "@id":"https://airfryersmart.pages.dev/#app",
+      "name":"AirFryerSmart Oven-to-Air-Fryer Conversion Calculator",
+      "url":"https://airfryersmart.pages.dev/",
+      "applicationCategory":"UtilitiesApplication",
+      "operatingSystem":"Any modern web browser",
+      "browserRequirements":"Requires JavaScript",
+      "description":"Convert conventional oven recipes into air fryer time and temperature, calibrated for specific air fryer brands, batch size and frozen food.",
+      "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+      "featureList":[
+        "Oven to air fryer temperature and time conversion",
+        "Brand calibration for Ninja, Cosori, Philips, Instant Vortex and Gourmia",
+        "Frozen food adjustment",
+        "Batch size and crowding adjustment",
+        "Full recipe paste and convert",
+        "Kitchen timer with shake alerts",
+        "USDA safe internal temperature reference",
+        "51 tested food presets"
+      ],
+      "inLanguage":"en"
+    },
+    {
+      "@type":"Organization",
+      "@id":"https://airfryersmart.pages.dev/#org",
+      "name":"AirFryerSmart",
+      "url":"https://airfryersmart.pages.dev/",
+      "logo":"https://airfryersmart.pages.dev/assets/img/icon-512.png"
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://airfryersmart.pages.dev/#website",
+      "url":"https://airfryersmart.pages.dev/",
+      "name":"AirFryerSmart",
+      "publisher":{"@id":"https://airfryersmart.pages.dev/#org"}
+    }
+  ]
+}
+</script>
+
+<!-- FAQPage structured data (matches the visible FAQ section below) -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"What is the rule for converting oven recipes to an air fryer?",
+     "acceptedAnswer":{"@type":"Answer","text":"Reduce the oven temperature by 25°F (about 15°C) and cut the cooking time by roughly 20–25%. So a recipe calling for 400°F for 30 minutes becomes about 375°F for 23 minutes in an air fryer. This works because an air fryer is a small convection oven — the fan moves hot air directly across the food surface, so heat transfers faster than in a large static oven."}},
+    {"@type":"Question","name":"Do I need to preheat an air fryer?",
+     "acceptedAnswer":{"@type":"Answer","text":"For most foods a 3-minute preheat gives noticeably better browning, especially for steak, chicken skin and frozen fries. You can skip it for long cooks over 25 minutes and for reheating, where the extra few minutes make little difference to the final result."}},
+    {"@type":"Question","name":"Why do different air fryer brands need different settings?",
+     "acceptedAnswer":{"@type":"Answer","text":"Basket-style air fryers such as Ninja and Philips have a small chamber with the fan directly above the food, so they run effectively hotter than the dial says. Oven-style and toaster-oven air fryers have a much larger cavity, weaker airflow and more thermal mass, so they typically need about 10°F more and 10% longer."}},
+    {"@type":"Question","name":"How much longer does frozen food take in an air fryer?",
+     "acceptedAnswer":{"@type":"Answer","text":"Add roughly 35% more time, which usually works out to 5–15 extra minutes depending on the length of the cook. Never thaw breaded or par-fried frozen foods first — thawing releases water into the coating and you lose the crispiness that makes air frying worthwhile."}},
+    {"@type":"Question","name":"Does a fuller basket change the cooking time?",
+     "acceptedAnswer":{"@type":"Answer","text":"Yes. Crowding blocks the airflow that does the cooking. Add about 13% more time for a large batch and 25% for a family-size load, shake more often, and accept that two smaller batches will always be crispier than one overloaded basket."}},
+    {"@type":"Question","name":"What internal temperature should food reach in an air fryer?",
+     "acceptedAnswer":{"@type":"Answer","text":"Air frying does not change food safety rules. The USDA safe minimums still apply: 165°F for all poultry, 160°F for ground meats, 145°F with a 3-minute rest for whole cuts of beef, pork and lamb, and 145°F for fish. Always confirm with a food thermometer rather than relying on time alone."}},
+    {"@type":"Question","name":"Can I convert baking recipes for an air fryer?",
+     "acceptedAnswer":{"@type":"Answer","text":"Yes, but drop the temperature further — about 40°F below the oven temperature. The fan is aggressive and at standard baking temperatures the tops of cakes and cookies brown long before the centres set. Never place empty parchment paper in a preheating air fryer, as it can lift into the heating element."}}
+  ]
+}
+</script>
+</head>
+
+<body>
+<a href="#converter" class="skip-link">Skip to the converter</a>
+
+<!-- ======================= HEADER ======================= -->
+<header class="sticky top-0 z-40 backdrop-blur-md" style="background:color-mix(in srgb, var(--surface) 88%, transparent);border-bottom:1px solid var(--line)">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="flex items-center justify-between h-16 gap-3">
+      <a href="index.html" class="flex items-center gap-2 font-black text-lg tracking-tight shrink-0">
+        <span class="tile-emoji" style="width:2rem;height:2rem;font-size:1.05rem" aria-hidden="true">🔥</span>
+        <span>AirFryer<span class="grad-text">Smart</span></span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-7 text-sm" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Converter</a>
+        <a href="foods.html" class="nav-link">Food Database</a>
+        <a href="blog.html" class="nav-link">Guides</a>
+        <a href="cheat-sheet.html" class="nav-link">Cheat Sheet</a>
+        <a href="about.html" class="nav-link">About</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a href="#cheat-sheet" class="btn btn-secondary btn-sm hidden sm:inline-flex">Free PDF</a>
+        <button type="button" data-theme-toggle aria-pressed="false" aria-label="Switch to dark mode" class="icon-btn">
+          <span data-theme-icon aria-hidden="true">🌙</span>
+        </button>
+        <button type="button" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu"
+                class="md:hidden icon-btn">☰</button>
+      </div>
+    </div>
+
+    <nav id="nav-menu" class="hidden md:hidden pb-4 flex flex-col gap-1 text-sm font-semibold" aria-label="Mobile navigation">
+      <a href="index.html" class="py-2.5 px-3 rounded-lg hover:bg-black/5 dark:hover:bg-white/5">Converter</a>
+      <a href="foods.html" class="py-2.5 px-3 rounded-lg hover:bg-black/5 dark:hover:bg-white/5">Food Database</a>
+      <a href="blog.html" class="py-2.5 px-3 rounded-lg hover:bg-black/5 dark:hover:bg-white/5">Guides</a>
+      <a href="cheat-sheet.html" class="py-2.5 px-3 rounded-lg hover:bg-black/5 dark:hover:bg-white/5">Free Cheat Sheet</a>
+      <a href="about.html" class="py-2.5 px-3 rounded-lg hover:bg-black/5 dark:hover:bg-white/5">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-4">
+
+  <!-- ======================= HERO ======================= -->
+  <section class="pt-12 md:pt-16 pb-8 text-center">
+    <span class="eyebrow">Free tool · No signup · Works offline</span>
+    <h1 class="text-4xl md:text-6xl font-black leading-[1.06] mt-4 mb-5">
+      Oven to air fryer,<br class="hidden sm:block">
+      <span class="grad-text">converted exactly.</span>
+    </h1>
+    <p class="lede max-w-2xl mx-auto">
+      Set your oven temperature and time, say what you're cooking and which air fryer you own.
+      You get the temperature, the minutes, the shake time and the safe internal temperature —
+      adjusted for frozen food, batch size and your specific model.
+    </p>
+
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">51</span><span class="stat-label">Tested foods</span></div>
+      <div class="stat"><span class="stat-num">9</span><span class="stat-label">Brand calibrations</span></div>
+      <div class="stat"><span class="stat-num">USDA</span><span class="stat-label">Safe temps</span></div>
+      <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Free, offline-ready</span></div>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-2 mt-7">
+      <a href="food/chicken-wings.html" class="chip">🍗 Chicken wings</a>
+      <a href="food/frozen-french-fries.html" class="chip">🍟 Frozen fries</a>
+      <a href="food/salmon.html" class="chip">🐟 Salmon</a>
+      <a href="food/chicken-breast.html" class="chip">🐔 Chicken breast</a>
+      <a href="foods.html" class="chip">Browse all 51 foods →</a>
+    </div>
+  </section>
+
+  <!-- AD SLOT 1: leaderboard, above the fold but below the H1 and clear of all buttons -->
+  <div class="ad-slot" data-format="leaderboard" data-placeholder aria-hidden="true">
+    <span class="ad-label">Advertisement</span>
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+         data-ad-slot="0000000001" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
+  </div>
+
+  <!-- ======================= CONVERTER ======================= -->
+  <section id="converter" class="scroll-mt-24" aria-labelledby="converter-heading">
+    <h2 id="converter-heading" class="sr-only">Conversion calculator</h2>
+
+    <div class="grid lg:grid-cols-5 gap-6">
+
+      <!-- ---------- INPUTS ---------- -->
+      <div class="lg:col-span-3 card card-pad">
+
+        <!-- Unit toggle -->
+        <div class="flex items-center justify-between gap-3 flex-wrap pb-5 mb-5" style="border-bottom:1px solid var(--line)">
+          <div>
+            <p class="field-label mb-0">Temperature units</p>
+            <p class="hint">Switch anytime — your inputs stay the same.</p>
+          </div>
+          <div class="seg" role="group" aria-label="Temperature unit">
+            <button type="button" class="seg-btn" data-unit="F" aria-pressed="true">°F</button>
+            <button type="button" class="seg-btn" data-unit="C" aria-pressed="false">°C</button>
+          </div>
+        </div>
+
+        <!-- Step 1: oven settings -->
+        <div class="flex items-center gap-3 mb-4">
+          <span class="step" aria-hidden="true">1</span>
+          <h3 class="font-bold text-base">What does your recipe say?</h3>
+        </div>
+
+        <div class="mb-6">
+          <div class="flex items-center justify-between gap-3 mb-2">
+            <label for="oven-temp" class="field-label mb-0">Oven temperature</label>
+            <output id="oven-temp-display" for="oven-temp" class="readout">400°F</output>
+          </div>
+          <input type="range" id="oven-temp" min="200" max="500" step="5" value="400" aria-describedby="oven-temp-hint">
+          <p id="oven-temp-hint" class="hint mt-2">
+            <span id="temp-unit-label">°F</span> — the temperature your recipe tells you to set the oven to.
+            Arrow keys give fine control.
+          </p>
+        </div>
+
+        <div class="mb-6">
+          <div class="flex items-center justify-between gap-3 mb-2">
+            <label for="oven-time" class="field-label mb-0">Oven cooking time</label>
+            <output id="oven-time-display" for="oven-time" class="readout">30 min</output>
+          </div>
+          <input type="range" id="oven-time" min="1" max="120" step="1" value="30" aria-describedby="oven-time-hint">
+          <p id="oven-time-hint" class="hint mt-2">
+            Use the middle of any range your recipe gives (for “25–30 minutes”, pick 28).
+          </p>
+        </div>
+
+        <!-- Step 2: your setup -->
+        <div class="flex items-center gap-3 mb-4 pt-5" style="border-top:1px solid var(--line)">
+          <span class="step" aria-hidden="true">2</span>
+          <h3 class="font-bold text-base">Tell us about your cook</h3>
+        </div>
+
+        <div class="mb-5">
+          <label for="food-category" class="field-label">What are you cooking?</label>
+          <select id="food-category" class="select" aria-describedby="category-note"></select>
+          <p id="category-note" class="hint mt-2"></p>
+        </div>
+
+        <div class="mb-5">
+          <label for="brand-select" class="field-label">Which air fryer do you have?</label>
+          <select id="brand-select" class="select" aria-describedby="brand-hint"></select>
+          <p id="brand-hint" class="hint mt-2">
+            Basket models run hotter and faster than oven-style models, so the result is adjusted to match yours.
+          </p>
+        </div>
+
+        <div class="mb-5">
+          <label for="batch-select" class="field-label">How much food?</label>
+          <select id="batch-select" class="select" aria-describedby="crowd-warning"></select>
+          <p id="crowd-warning" hidden class="note note-warn mt-3"></p>
+        </div>
+
+        <div class="flex items-center justify-between gap-4 p-4 rounded-xl mb-6"
+             style="background:var(--surface-2);border:1px solid var(--line)">
+          <label for="frozen-toggle" class="font-bold cursor-pointer text-sm">
+            Cooking from frozen?
+            <span class="block font-normal mt-0.5" style="color:var(--text-3)">
+              Adds 5–15 minutes. Don't thaw breaded or par-fried foods first.
+            </span>
+          </label>
+          <span class="switch">
+            <input type="checkbox" id="frozen-toggle" role="switch" aria-checked="false">
+            <span class="switch-track"></span>
+          </span>
+        </div>
+
+        <!-- Step 3: tested foods -->
+        <div class="flex items-center gap-3 mb-4 pt-5" style="border-top:1px solid var(--line)">
+          <span class="step" aria-hidden="true">3</span>
+          <h3 class="font-bold text-base">Or use tested values instead</h3>
+        </div>
+        <label for="food-quick" class="field-label">
+          Jump straight to a tested food
+          <span class="block font-normal text-sm mt-0.5" style="color:var(--text-3)">
+            Real measured times beat any formula — 51 foods with shake points and safe temperatures.
+          </span>
+        </label>
+        <select id="food-quick" class="select">
+          <option value="">Choose a food…</option>
+        </select>
+        <div id="food-quick-result" hidden class="mt-3 p-4 rounded-xl"
+             style="background:var(--brand-50);border:1px solid var(--brand-200)"></div>
+      </div>
+
+      <!-- ---------- RESULTS ---------- -->
+      <div class="lg:col-span-2 space-y-5 lg:sticky lg:top-24 lg:self-start">
+
+        <div class="result-card print-block">
+          <p class="text-xs uppercase tracking-widest font-bold mb-3" style="opacity:.92">Your air fryer settings</p>
+          <div class="flex items-end gap-6 mb-4">
+            <div>
+              <p id="result-temp" class="result-num">375°F</p>
+              <p class="text-xs mt-1" style="opacity:.9">temperature</p>
+            </div>
+            <div>
+              <p class="result-num"><span id="result-time">23</span></p>
+              <p class="text-xs mt-1"><span id="result-time-unit">minutes</span></p>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="result-meta">🧺 Shake at <span id="result-shake">12</span> min</span>
+            <span class="result-meta">⚡ <span id="result-saved">7 min faster</span></span>
+            <span id="frozen-badge" hidden class="result-meta"></span>
+          </div>
+        </div>
+
+        <!-- Why these numbers — transparency builds trust and E-E-A-T -->
+        <details class="faq">
+          <summary>How we calculated this</summary>
+          <div class="faq-body">
+            <ul id="result-why" class="space-y-2 text-sm list-disc pl-5"></ul>
+            <p class="hint mt-3">
+              These are starting points, not guarantees. Every air fryer is slightly different — check your food a
+              few minutes early the first time you cook something, and always confirm doneness with a thermometer.
+            </p>
+          </div>
+        </details>
+
+        <!-- TIMER -->
+        <div id="timer-card" class="card card-pad">
+          <h3 class="font-bold mb-3">Kitchen timer</h3>
+          <p id="timer-display" role="timer" aria-live="polite"
+             class="text-5xl font-black text-center tabular-nums mb-3">23:00</p>
+          <div class="h-1.5 rounded-full overflow-hidden mb-2" style="background:var(--line)">
+            <div id="timer-bar" class="h-full transition-all duration-300" style="width:0%;background:var(--brand-600)"></div>
+          </div>
+          <p id="timer-next" class="text-xs text-center mb-4 min-h-[1rem]" style="color:var(--text-3)"></p>
+          <div class="grid grid-cols-2 gap-2 mb-2">
+            <button type="button" id="timer-start" class="btn btn-primary">▶ Start timer</button>
+            <button type="button" id="timer-reset" class="btn btn-secondary">↺ Reset</button>
+          </div>
+          <div class="grid grid-cols-2 gap-2">
+            <button type="button" id="timer-minus" class="btn btn-secondary btn-sm">−1 min</button>
+            <button type="button" id="timer-plus" class="btn btn-secondary btn-sm">+1 min</button>
+          </div>
+          <p class="hint mt-3">
+            Keeps accurate time in a background tab and sends a browser notification at the shake point and at zero.
+          </p>
+        </div>
+
+        <!-- ACTIONS -->
+        <div class="card card-pad space-y-3">
+          <label for="save-name" class="field-label mb-0">Save this conversion</label>
+          <div class="flex gap-2">
+            <input type="text" id="save-name" placeholder="e.g. Sunday chicken thighs" maxlength="60" class="input">
+            <button type="button" id="btn-save" class="btn btn-primary shrink-0">Save</button>
+          </div>
+          <div class="grid grid-cols-3 gap-2 pt-1">
+            <button type="button" id="btn-copy" class="btn btn-secondary btn-sm">📋 Copy</button>
+            <button type="button" id="btn-print" class="btn btn-secondary btn-sm">🖨️ Print</button>
+            <button type="button" id="btn-reset" class="btn btn-danger btn-sm">🗑️ Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AD SLOT 2: in-content, after the converter and clear of every button -->
+  <div class="ad-slot" data-format="rectangle" data-placeholder aria-hidden="true">
+    <span class="ad-label">Advertisement</span>
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+         data-ad-slot="0000000002" data-ad-format="rectangle" data-full-width-responsive="true"></ins>
+  </div>
+
+  <!-- ======================= CHART ======================= -->
+  <section class="mt-12" aria-labelledby="chart-heading">
+    <div class="section-head">
+      <span class="eyebrow">At a glance</span>
+      <h2 id="chart-heading">Oven vs air fryer</h2>
+      <p>How your current settings compare. The time saving is why most people stop using the big oven for small portions.</p>
+    </div>
+    <div class="card card-pad">
+      <div style="height:320px">
+        <canvas id="compare-chart" aria-label="Bar chart comparing oven and air fryer temperature and time" role="img"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= RECIPE PASTE & CONVERT ======================= -->
+  <section id="recipe-converter" class="mt-12 scroll-mt-24" aria-labelledby="paste-heading">
+    <div class="section-head">
+      <span class="eyebrow">Most useful feature</span>
+      <h2 id="paste-heading">Paste a whole recipe and convert it</h2>
+      <p>
+        Drop in any recipe. We find every temperature and time — including ranges, Celsius and UK gas marks —
+        and rewrite them for your air fryer, leaving the rest of the text exactly as it was.
+      </p>
+    </div>
+
+    <div class="card card-pad">
+      <label for="recipe-input" class="field-label">Your recipe</label>
+      <textarea id="recipe-input" rows="8" class="textarea"
+                placeholder="Preheat the oven to 400°F. Roast for 25-30 minutes, turning halfway…"></textarea>
+
+      <div class="flex flex-wrap gap-2 mt-3">
+        <button type="button" id="btn-parse" class="btn btn-primary">Convert recipe</button>
+        <button type="button" id="btn-parse-sample" class="btn btn-secondary">Try an example</button>
+        <button type="button" id="btn-parse-clear" class="btn btn-ghost">Clear</button>
+      </div>
+
+      <div id="recipe-result" hidden class="mt-6">
+        <div class="flex items-center justify-between flex-wrap gap-2 mb-3">
+          <h3 class="font-bold">Converted recipe</h3>
+          <div class="flex items-center gap-3">
+            <span id="recipe-stats" class="hint"></span>
+            <button type="button" id="btn-parse-copy" class="btn btn-secondary btn-sm">📋 Copy</button>
+          </div>
+        </div>
+        <ul id="recipe-summary" class="mb-4 space-y-1 text-sm"></ul>
+        <div id="recipe-output" class="p-4 rounded-xl leading-relaxed whitespace-pre-wrap text-sm"
+             style="background:var(--surface-2);border:1px solid var(--line);color:var(--text-2)"></div>
+        <p class="hint mt-3">
+          Converted times assume the food type, air fryer model and batch size you selected above.
+          Always check doneness with a thermometer rather than relying on the clock.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= SAVED RECIPES ======================= -->
+  <section id="saved" class="mt-12 scroll-mt-24" aria-labelledby="saved-heading">
+    <div class="section-head">
+      <h2 id="saved-heading">Saved recipes <span class="grad-text">(<span id="saved-count">0</span>)</span></h2>
+      <p>Stored privately in your own browser. Nothing is uploaded to a server.</p>
+    </div>
+    <p id="saved-empty" class="card-media">
+      No saved conversions yet. Set your temperature and time above, give it a name, and press Save.
+    </p>
+    <ul id="saved-list" class="space-y-3"></ul>
+  </section>
+
+  <!-- ======================= FOOD SAFETY ======================= -->
+  <section id="safe-temps" class="mt-12 scroll-mt-24" aria-labelledby="safety-heading">
+    <div class="section-head">
+      <span class="eyebrow">Food safety</span>
+      <h2 id="safety-heading">Safe internal temperatures</h2>
+      <p>
+        Air frying does not change food safety rules. These are the USDA safe minimum internal temperatures —
+        a thermometer, not the clock or the colour, is the only reliable way to know food is done.
+      </p>
+    </div>
+    <div class="card overflow-x-auto print-block">
+      <table class="table-afs">
+        <caption class="sr-only">USDA safe minimum internal cooking temperatures</caption>
+        <thead>
+          <tr>
+            <th scope="col">Food</th>
+            <th scope="col">°F</th>
+            <th scope="col">°C</th>
+            <th scope="col">Notes</th>
+          </tr>
+        </thead>
+        <tbody id="safe-temp-body"></tbody>
+      </table>
+    </div>
+    <p class="hint mt-3">
+      Source: USDA Food Safety and Inspection Service safe minimum internal temperature chart and FoodSafety.gov.
+      Temperatures below these minimums carry increased risk of foodborne illness.
+    </p>
+  </section>
+
+  <!-- ======================= LEAD MAGNET ======================= -->
+  <section id="cheat-sheet" class="mt-12 scroll-mt-24">
+    <div class="rounded-2xl p-8 md:p-10 text-white relative overflow-hidden"
+         style="background:linear-gradient(135deg,#1c1917 0%,#292524 55%,#7c2d12 140%);box-shadow:var(--sh-3)">
+      <div class="max-w-2xl">
+        <span class="eyebrow" style="color:#fdba74">Free download</span>
+        <h2 class="text-3xl md:text-4xl font-black mt-2 mb-3 text-white">The printable Air Fryer Conversion Cheat Sheet</h2>
+        <p style="color:#d6d3d1" class="mb-5 leading-relaxed">
+          A four-page PDF built for the kitchen wall: the conversion rules, 51 tested foods with temperature and
+          time, frozen adjustments, USDA safe temperatures, and a troubleshooting table for when things come out
+          soggy. Print it once and stop searching mid-cook.
+        </p>
+        <form data-newsletter data-lead-magnet class="flex flex-col sm:flex-row gap-3 max-w-lg" novalidate>
+          <label for="lead-email" class="sr-only">Your email address</label>
+          <input type="email" id="lead-email" name="EMAIL" required autocomplete="email"
+                 placeholder="you@example.com" class="flex-1 min-w-0 input">
+          <button type="submit" class="btn btn-primary btn-lg whitespace-nowrap">Send me the PDF</button>
+        </form>
+        <p data-newsletter-status role="status" aria-live="polite" class="mt-3 text-sm min-h-[1.25rem]" style="color:#fdba74"></p>
+        <p class="mt-2 text-xs" style="color:#a8a29e">
+          One email with your download, then an occasional recipe guide. No spam, unsubscribe anytime.
+          Read our <a href="privacy.html" class="underline">Privacy Policy</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= ACCESSORIES (AFFILIATE) ======================= -->
+  <section id="gear" class="mt-12 scroll-mt-24" aria-labelledby="gear-heading">
+    <div class="section-head">
+      <span class="eyebrow">Recommended</span>
+      <h2 id="gear-heading">Accessories that actually make a difference</h2>
+      <p>
+        <strong>As an Amazon Associate, we earn from qualifying purchases.</strong>
+        The links below are affiliate links — they cost you nothing extra and keep this tool free.
+        You genuinely do not need much; these four solve the problems people run into most.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <article class="card card-pad card-hover flex flex-col">
+        <span class="text-4xl mb-3" aria-hidden="true">🌡️</span>
+        <h3 class="font-bold mb-2">Instant-read thermometer</h3>
+        <p class="text-sm flex-1" style="color:var(--text-2)">
+          The single most useful thing you can own. Every “is the chicken done?” question disappears
+          for about the price of two takeaways.
+        </p>
+        <a data-amazon-search="instant read meat thermometer" href="#" class="btn btn-primary btn-sm mt-4">Check price on Amazon</a>
+      </article>
+
+      <article class="card card-pad card-hover flex flex-col">
+        <span class="text-4xl mb-3" aria-hidden="true">📄</span>
+        <h3 class="font-bold mb-2">Perforated parchment liners</h3>
+        <p class="text-sm flex-1" style="color:var(--text-2)">
+          Stops fish and dumplings welding to the basket. The perforations matter — solid paper
+          blocks the airflow that does the cooking.
+        </p>
+        <a data-amazon-search="perforated air fryer parchment liners" href="#" class="btn btn-primary btn-sm mt-4">Check price on Amazon</a>
+      </article>
+
+      <article class="card card-pad card-hover flex flex-col">
+        <span class="text-4xl mb-3" aria-hidden="true">💨</span>
+        <h3 class="font-bold mb-2">Oil mister</h3>
+        <p class="text-sm flex-1" style="color:var(--text-2)">
+          Aerosol sprays contain propellants that strip the non-stick coating over time.
+          A pump mister uses your own oil and lasts for years.
+        </p>
+        <a data-amazon-search="oil sprayer mister for cooking" href="#" class="btn btn-primary btn-sm mt-4">Check price on Amazon</a>
+      </article>
+
+      <article class="card card-pad card-hover flex flex-col">
+        <span class="text-4xl mb-3" aria-hidden="true">🍳</span>
+        <h3 class="font-bold mb-2">Silicone-tipped tongs</h3>
+        <p class="text-sm flex-1" style="color:var(--text-2)">
+          Metal tongs scratch the basket coating. Silicone tips let you flip wings and fish
+          without wrecking a hundred-dollar appliance.
+        </p>
+        <a data-amazon-search="silicone tipped kitchen tongs" href="#" class="btn btn-primary btn-sm mt-4">Check price on Amazon</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ======================= FAQ ======================= -->
+  <section id="faq" class="mt-12 scroll-mt-24" aria-labelledby="faq-heading">
+    <div class="section-head">
+      <span class="eyebrow">Answers</span>
+      <h2 id="faq-heading">Frequently asked questions</h2>
+    </div>
+    <div class="space-y-3">
+
+      <details class="faq">
+        <summary>What is the rule for converting oven recipes to an air fryer?</summary>
+        <div class="faq-body">
+          Reduce the oven temperature by 25°F (about 15°C) and cut the cooking time by roughly 20–25%.
+          A recipe calling for 400°F for 30 minutes becomes about 375°F for 23 minutes. This works because
+          an air fryer is a small convection oven: the fan drives hot air directly across the food surface,
+          so heat transfers much faster than in a large static oven.
+          <a href="blog/how-to-convert-any-recipe.html" class="link">Read the full conversion guide →</a>
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>Do I need to preheat an air fryer?</summary>
+        <div class="faq-body">
+          For most foods a 3-minute preheat gives noticeably better browning, especially steak, chicken skin
+          and frozen fries. You can skip it for long cooks over 25 minutes and for reheating, where those few
+          minutes make little difference to the finished result.
+        </div>
+      </details>
+
+      <!-- AD SLOT 3: in-feed, sitting between FAQ items rather than attached to any control -->
+      <div class="ad-slot" data-format="in-feed" data-placeholder aria-hidden="true">
+        <span class="ad-label">Advertisement</span>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+             data-ad-slot="0000000003" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86"></ins>
+      </div>
+
+      <details class="faq">
+        <summary>Why do different air fryer brands need different settings?</summary>
+        <div class="faq-body">
+          Basket-style air fryers such as Ninja and Philips have a small chamber with the fan directly above
+          the food, so they run effectively hotter than the dial suggests. Oven-style and toaster-oven air fryers
+          have a much larger cavity, weaker airflow and more thermal mass, so they typically need around 10°F more
+          and about 10% longer. That is exactly what the brand selector above adjusts for.
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>How much longer does frozen food take?</summary>
+        <div class="faq-body">
+          Add roughly 35% more time, usually 5–15 extra minutes depending on the length of the cook.
+          Never thaw breaded or par-fried frozen foods first — thawing releases water into the coating and you
+          lose the crispiness that made you reach for the air fryer in the first place.
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>Does a fuller basket change the cooking time?</summary>
+        <div class="faq-body">
+          Yes. Crowding blocks the airflow that does the actual cooking. Add about 13% more time for a large batch
+          and 25% for a family-size load, shake more often, and accept that two smaller batches will always beat
+          one overloaded basket for crispiness.
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>What internal temperature should food reach?</summary>
+        <div class="faq-body">
+          Air frying does not change food safety rules. USDA minimums still apply: 165°F for all poultry,
+          160°F for ground meats, 145°F with a 3-minute rest for whole cuts of beef, pork and lamb, and 145°F
+          for fish. See the <a href="#safe-temps" class="link">full safe temperature table</a> above.
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>Can I convert baking recipes?</summary>
+        <div class="faq-body">
+          Yes, but drop the temperature further — around 40°F below the oven temperature, which is what the
+          “Baked Goods” category does automatically. The fan is aggressive, and at normal baking temperatures the
+          tops of cakes and cookies brown long before the centres set. Never put empty parchment paper into a
+          preheating air fryer, as it can lift into the heating element.
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- ======================= INTERNAL LINKS ======================= -->
+  <section class="mt-12" aria-labelledby="explore-heading">
+    <div class="section-head">
+      <h2 id="explore-heading">Popular air fryer times</h2>
+      <p>Straight to the foods people look up most.</p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+      <a href="food/chicken-wings.html" class="tile"><span class="tile-emoji" aria-hidden="true">🍗</span>Chicken wings</a>
+      <a href="food/frozen-french-fries.html" class="tile"><span class="tile-emoji" aria-hidden="true">🍟</span>Frozen fries</a>
+      <a href="food/salmon.html" class="tile"><span class="tile-emoji" aria-hidden="true">🐟</span>Salmon</a>
+      <a href="food/bacon.html" class="tile"><span class="tile-emoji" aria-hidden="true">🥓</span>Bacon</a>
+      <a href="food/chicken-breast.html" class="tile"><span class="tile-emoji" aria-hidden="true">🐔</span>Chicken breast</a>
+      <a href="food/brussels-sprouts.html" class="tile"><span class="tile-emoji" aria-hidden="true">🥬</span>Brussels sprouts</a>
+      <a href="food/steak.html" class="tile"><span class="tile-emoji" aria-hidden="true">🥩</span>Steak</a>
+      <a href="foods.html" class="tile" style="background:var(--brand-600);color:#fff;border-color:transparent">
+        <span class="tile-emoji" aria-hidden="true">🔎</span>See all 51 foods →
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="mt-16" style="background:var(--surface);border-top:1px solid var(--line)">
+  <div class="max-w-6xl mx-auto px-4 py-12">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+      <div>
+        <p class="font-black text-lg mb-2 flex items-center gap-2">
+          <span class="tile-emoji" style="width:2rem;height:2rem;font-size:1.05rem" aria-hidden="true">🔥</span>
+          <span>AirFryer<span class="grad-text">Smart</span></span>
+        </p>
+        <p class="text-sm leading-relaxed" style="color:var(--text-2)">
+          A free, accurate oven-to-air-fryer converter with tested times for 51 foods.
+          Built by people who cook, not by a content farm.
+        </p>
+      </div>
+      <div>
+        <h2 class="font-bold mb-3 text-sm uppercase tracking-wider" style="color:var(--text-3)">Tools</h2>
+        <ul class="space-y-2 text-sm">
+          <li><a href="index.html" class="link" style="text-decoration:none;color:var(--text-2)">Conversion calculator</a></li>
+          <li><a href="index.html#recipe-converter" class="link" style="text-decoration:none;color:var(--text-2)">Paste a recipe</a></li>
+          <li><a href="foods.html" class="link" style="text-decoration:none;color:var(--text-2)">Food database</a></li>
+          <li><a href="cheat-sheet.html" class="link" style="text-decoration:none;color:var(--text-2)">Printable cheat sheet</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="font-bold mb-3 text-sm uppercase tracking-wider" style="color:var(--text-3)">Guides</h2>
+        <ul class="space-y-2 text-sm">
+          <li><a href="blog/air-fryer-vs-oven.html" class="link" style="text-decoration:none;color:var(--text-2)">Air fryer vs oven</a></li>
+          <li><a href="blog/how-to-convert-any-recipe.html" class="link" style="text-decoration:none;color:var(--text-2)">Convert any recipe</a></li>
+          <li><a href="blog/10-air-fryer-mistakes.html" class="link" style="text-decoration:none;color:var(--text-2)">10 beginner mistakes</a></li>
+          <li><a href="blog.html" class="link" style="text-decoration:none;color:var(--text-2)">All guides</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="font-bold mb-3 text-sm uppercase tracking-wider" style="color:var(--text-3)">Site</h2>
+        <ul class="space-y-2 text-sm">
+          <li><a href="about.html" class="link" style="text-decoration:none;color:var(--text-2)">About us</a></li>
+          <li><a href="contact.html" class="link" style="text-decoration:none;color:var(--text-2)">Contact</a></li>
+          <li><a href="privacy.html" class="link" style="text-decoration:none;color:var(--text-2)">Privacy policy</a></li>
+          <li><a href="terms.html" class="link" style="text-decoration:none;color:var(--text-2)">Terms of service</a></li>
+          <li><a href="disclosure.html" class="link" style="text-decoration:none;color:var(--text-2)">Affiliate disclosure</a></li>
+          <li><a href="#" data-consent-reopen class="link" style="text-decoration:none;color:var(--text-2)">Cookie settings</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="pt-6 mb-6" style="border-top:1px solid var(--line)">
+      <form data-newsletter class="flex flex-col sm:flex-row gap-3 max-w-lg" novalidate>
+        <label for="footer-email" class="sr-only">Email address for the newsletter</label>
+        <input type="email" id="footer-email" name="EMAIL" required autocomplete="email"
+               placeholder="Get new air fryer guides by email" class="flex-1 min-w-0 input">
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+      <p data-newsletter-status role="status" aria-live="polite" class="hint mt-2 min-h-[1.25rem]"></p>
+    </div>
+
+    <div class="pt-6 text-sm space-y-2" style="border-top:1px solid var(--line);color:var(--text-3)">
+      <p><strong style="color:var(--text-2)">As an Amazon Associate, we earn from qualifying purchases.</strong>
+        Some links on this site are affiliate links. This never affects the price you pay or what we recommend.</p>
+      <p>Cooking times are starting points based on testing and manufacturer guidance. Every appliance differs —
+        always verify doneness with a food thermometer. Temperature guidance follows USDA Food Safety and Inspection Service recommendations.</p>
+      <p>&copy; <span data-year>2026</span> AirFryerSmart. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ======================= COOKIE CONSENT ======================= -->
+<div id="cookie-banner" hidden role="dialog" aria-modal="false" aria-labelledby="cookie-title"
+     class="fixed bottom-0 inset-x-0 z-50 p-4 md:p-5 text-white"
+     style="background:#1c1917;box-shadow:0 -10px 40px rgba(0,0,0,.35);border-top:1px solid #292524">
+  <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-center gap-4">
+    <div class="flex-1 text-sm">
+      <h2 id="cookie-title" class="font-bold mb-1 text-white">We use cookies</h2>
+      <p style="color:#d6d3d1">
+        We use cookies for analytics and to show advertising that keeps this tool free.
+        You can accept or reject non-essential cookies — the calculator works fully either way.
+        See our <a href="privacy.html" class="underline">Privacy Policy</a>.
+      </p>
+    </div>
+    <div class="flex gap-2 shrink-0">
+      <button type="button" data-consent="reject" class="btn btn-secondary btn-sm"
+              style="background:#292524;border-color:#44403c;color:#f5f5f4">Reject non-essential</button>
+      <button type="button" data-consent="accept" class="btn btn-primary btn-sm">Accept all</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<!-- Scripts: all deferred so they never block first paint (protects LCP) -->
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/engine.js" defer></script>
+<script src="assets/js/parser.js" defer></script>
+<script src="assets/js/site.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="assets/js/converter.js" defer></script>
+</body>
+</html>

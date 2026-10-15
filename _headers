@@ -1,0 +1,22 @@
+# AirFryerSmart — HTTP headers
+# Works on BOTH Cloudflare Pages and Netlify (same format).
+
+# Security headers for every page
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# JS/CSS are unversioned filenames, so keep caching short (1 day) —
+# a longer cache would delay updates reaching visitors.
+/assets/*
+  Cache-Control: public, max-age=86400
+
+# The cheat-sheet PDF changes rarely — cache for a week.
+/downloads/*
+  Cache-Control: public, max-age=604800
+
+# Never cache HTML (pages regenerate on every deploy).
+/*.html
+  Cache-Control: no-cache
